@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Eesti Bandide andmebaas',
+        'defaultController'=>'band',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -33,6 +34,8 @@ return array(
 	// application components
 	'components'=>array(
 		'user'=>array(
+                        // User class
+                         'class'=>'application.components.EbaWebUser',
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
@@ -73,11 +76,12 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
+                                        'levels'=>'error, warning, trace',
 				),
-				*/
+				
 			),
 		),
 	),

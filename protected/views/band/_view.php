@@ -5,7 +5,9 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('user_id')); ?>:</b>
-	<?php echo CHtml::encode($data->user_id); ?>
+	<?php echo CHtml::encode($data->username); 
+       // Yii::trace($data->getUsername());
+        ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('genre_id')); ?>:</b>
@@ -16,25 +18,21 @@
 	<?php echo CHtml::encode($data->name); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('description_short')); ?>:</b>
-	<?php echo CHtml::encode($data->description_short); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('description')); ?>:</b>
+	<?php echo CHtml::encode($data->description); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('description_long')); ?>:</b>
-	<?php echo CHtml::encode($data->description_long); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('activeSince')); ?>:</b>
+	<?php echo CHtml::encode($data->activeSince); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('active_since')); ?>:</b>
-	<?php echo CHtml::encode($data->active_since); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('website')); ?>:</b>
+	<?php echo CHtml::encode($data->website); ?>
 	<br />
 
 	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('epost')); ?>:</b>
-	<?php echo CHtml::encode($data->epost); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('webpage')); ?>:</b>
-	<?php echo CHtml::encode($data->webpage); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('email')); ?>:</b>
+	<?php echo CHtml::encode($data->email); ?>
 	<br />
 
 	*/ ?>

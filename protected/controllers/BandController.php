@@ -69,6 +69,7 @@ class BandController extends Controller
 		if(isset($_POST['Band']))
 		{
 			$model->attributes=$_POST['Band'];
+                        $model->user_id = Yii::app()->user->id;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
