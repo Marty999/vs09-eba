@@ -1,11 +1,3 @@
-<?php
-$this->pageTitle=Yii::app()->name . ' - Login';
-$this->breadcrumbs=array(
-	'Login',
-);
-?>
-
-<h1>Logi sisse</h1>
 
 <!--<p>Please fill out the following form with your login credentials:</p>-->
 
@@ -37,7 +29,7 @@ $this->breadcrumbs=array(
 
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
+		<?php echo $form->label($model,'rememberMe',array('style'=>'width:100px;display:inline;')); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 

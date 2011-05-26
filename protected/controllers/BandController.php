@@ -7,7 +7,17 @@ class BandController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
-
+        
+        //kui esitähe järgi valida band siis koristame otsingu 
+        public function createUrl($route,$params=array(),$ampersand='&')
+	{
+            if (isset($params['alpha'])){
+            unset($params['search']);
+            }
+		
+		return parent::createUrl($route, $params, $ampersand);
+	}
+        
 	/**
 	 * @return array action filters
 	 */
@@ -27,7 +37,7 @@ class BandController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','autocomplete'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -43,6 +53,26 @@ class BandController extends Controller
 			),
 		);
 	}
+        
+        
+        /*
+         * Autocomplete otsingu jaoks
+         */
+         public function actionAutocomplete() {
+            $res =array();
+
+            if (isset($_GET['term'])) {
+                    Yii::trace($_GET['term']);
+                    // http://www.yiiframework.com/doc/guide/database.dao
+                    $qtxt ="SELECT name FROM tbl_band WHERE name LIKE :name";
+                    $command =Yii::app()->db->createCommand($qtxt);
+                    $command->bindValue(":name", '%'.$_GET['term'].'%', PDO::PARAM_STR);
+                    $res =$command->queryColumn();
+            }
+
+            echo CJSON::encode($res);
+            Yii::app()->end();
+        }
 
 	/**
 	 * Displays a particular model.
@@ -128,10 +158,13 @@ class BandController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Band');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+
+            $data = Band::model()->listBands(CHttpRequest::getParam('search',''));
+  
+            $this->render('index', array(
+                'bands' => $data->bands,
+                 'pages' => $data->pages
+            ));
 	}
 
 	/**
@@ -174,4 +207,5 @@ class BandController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
 }

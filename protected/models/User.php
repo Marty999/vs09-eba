@@ -17,6 +17,8 @@ class User extends CActiveRecord
 {
     public $password2;
     public $verifyCode;
+    public $bandname;
+    public $description;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return User the static model class
@@ -42,7 +44,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, password2, verifyCode, email, level', 'required'),
+			array('username, password, password2, verifyCode, email, level, bandname, description', 'required'),
 			array('username', 'validateUsername'),
 			array('username, password, password2, email', 'length', 'max'=>128),
                         array('email', 'email'),
@@ -51,7 +53,7 @@ class User extends CActiveRecord
                         array('verifyCode', 'captcha', 'allowEmpty'=>!Yii::app()->user->isGuest),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, password, email, level', 'safe', 'on'=>'search'),
+			array('id, username, email, level', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,11 +76,12 @@ class User extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'username' => 'Username',
-			'password' => 'Password',
-			'email' => 'Email',
-			'level' => 'Level',
-                        'verifyCode' => 'Verification Code',
+			'username' => 'Kasutajanimi',
+			'password' => 'Parool',
+			'password2' => 'Parooli kordus',
+			'email' => 'E-posti aadress',
+			'bandname' => 'Bändi nimi',
+                        'verifyCode' => 'Kontrollkood',
 		);
 	}
 
@@ -137,9 +140,38 @@ class User extends CActiveRecord
 	{
 		if(!$this->hasErrors())
 		{
-			if($this->password != $this->password2)
+
+			if($this->password != $this->password2){
 				$this->addError('password',''   );
 				$this->addError('password2','Paroolid ei kattu.');
+                        }
 		}
 	}
+        
+        
+        /*
+         * Uue kasutaja registreerimine
+         * 
+         */
+        public function register(){
+            
+            Yii::log($this->attributes);
+            if($this->save()){
+                $band = new Band;
+                $band->user_id = $this->id;
+                $band->genre_id = 1;
+                $band->activeSince = 1999;
+                $band->name = $this->bandname;
+                $band->description = $this->description;
+                if($band->save(false)){
+                        return true;
+                        
+                }
+                else{
+                    $this->deleteByPk($this->id);
+                
+                }                  
+                                
+            }
+        }
 }

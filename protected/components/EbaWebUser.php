@@ -11,7 +11,15 @@ class EbaWebUser extends CWebUser{
            return $user->level==LevelLookUp::ADMIN;
         return false;
     }
- 
+     
+      public function getBand(){
+          if(!$this->id)
+                  return false;
+          
+          $userband = Band::model()->find('user_id=:user_id', array(':user_id'=>$this->id));
+                  return $userband;
+          
+      }  
     // Load user model.
     protected function loadUser()
     {

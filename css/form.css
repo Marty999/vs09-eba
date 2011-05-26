@@ -36,6 +36,7 @@
 
 div.form
 {
+    padding:10px 20px;
 }
 
 div.form input,
@@ -56,13 +57,14 @@ div.form fieldset
 div.form label
 {
 	font-weight: bold;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	display: block;
+        margin-bottom:10px;
 }
 
 div.form .row
 {
-	margin: 5px 0;
+	margin: 15px 0;
 }
 
 div.form .hint
@@ -75,6 +77,7 @@ div.form .hint
 div.form .note
 {
 	font-style: italic;
+        padding:10px 0px;
 }
 
 div.form span.required
@@ -158,3 +161,25 @@ div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 	clear: left;
 	padding-left: 110px;
 }
+
+div.form INPUT{
+    border-radius:10px;
+    border:1px solid #999;
+    padding:4px;
+}
+div.form INPUT:hover{
+    border-color:#666;  
+}
+div.form INPUT:focus{
+    background-color:#eee;
+    
+}
+div.form FORM INPUT[type="submit"]{
+    border:1px solid #80bb28;
+    background-color: #a1d956;
+    color:white;
+    font-size:14px;
+    padding:4px;
+    -moz-box-shadow:0px 0px 3px #111;
+}
+IMG.captcha {cursor: pointer;}

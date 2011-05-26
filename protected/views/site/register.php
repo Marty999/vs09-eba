@@ -1,3 +1,4 @@
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -8,9 +9,9 @@
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Väljad märgitud <span class="required">*</span> on kohustuslikud.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'username'); ?>
@@ -35,17 +36,34 @@
 		<?php echo $form->error($model,'password2'); ?>
 	</div>
         
+        <div class="row">
+		<?php echo $form->labelEx($model,'bandname'); ?>
+		<?php echo $form->textField($model,'bandname'); ?>
+		<?php echo $form->error($model,'bandname'); ?>
+	</div>
+        
+        <div class="row">
+            <?php echo CHtml::activeLabelEx($model, 'description') ?>
+            <?php echo $form->error($model,'description'); ?>
+            <?php
+            $this->widget('application.extensions.cleditor.ECLEditor', array(
+                'model'=>$model,
+                'attribute'=>'description',
+            ));
+            ?>
+                
+        </div>  
+        
+        
         <?php if (extension_loaded('gd')): ?>
             <div class="row">
                 <?php echo CHtml::activeLabelEx($model, 'verifyCode') ?>
-            <div>
-            <?php echo CHtml::activeTextField($model,'verifyCode'); ?>
-            <?php $this->widget('CCaptcha'); ?>
-            </div>
-            <div class="hint">Letters are not case-sensitive.</div>
+                <?php $this->widget('CCaptcha', array('clickableImage'=>true,'showRefreshButton'=>false,'imageOptions'=>array('class'=>'captcha'))); ?>
+                <div class="hint">Kui kood pole loetav kliki sellele uue saamiseks.</div>
+                <?php echo CHtml::activeTextField($model,'verifyCode',array('style'=>'display:block;')); ?>                
             </div>
         <?php endif; ?>
-
+        
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Registreeri'); ?>
 	</div>

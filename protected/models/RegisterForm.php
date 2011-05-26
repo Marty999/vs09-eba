@@ -21,7 +21,7 @@ class RegisterForm extends CFormModel
 	{
 		return array(
 			// username and password are required
-			array('username, password password2', 'required'),
+			array('username, password, password2', 'required'),
 			array('password', 'matchPasswords'),
 		);
 	}
@@ -61,7 +61,8 @@ class RegisterForm extends CFormModel
             
             $user = new User;
             $user->attributes = $this->attributes;
-            if($user->save())
+            if($user->save()){
                 return true;
+            }
 	}
 }

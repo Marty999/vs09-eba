@@ -45,3 +45,15 @@ CREATE TABLE tbl_user (
   `level` int(1) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+
+--
+-- Table structure for table 'tbl_genre'
+--
+
+CREATE TABLE tbl_genre (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  description text NOT NULL,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;

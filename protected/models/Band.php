@@ -121,4 +121,53 @@ class Band extends CActiveRecord
             return $user->username;
             
         }
+        
+        
+        /*
+         * 
+         * 
+         */
+        public function listBands($q = false){
+            
+            Yii::import('application.extensions.alphapager.ApPagination');
+            
+            $criteria = new CDbCriteria();
+            $alphaPages = new ApPagination('name');
+            $alphaPages->setCharSet(array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','Õ','Ä','Ö','Ü','X','Y'));
+            $alphaPages->activeNumbers = Band::model()->count("SUBSTRING(`name` FROM 1 FOR 1) BETWEEN '0' AND '9'") > 0;
+            //teeb automaatselt instantsi CPaginationist
+            $pages = $alphaPages->pagination;
+            $activeCharCriteria=new CDbCriteria;
+            
+            // Select only the first letter of the attribute used for AlphaPager
+            $activeCharCriteria->select='DISTINCT(LEFT(UPPER(`name`),1)) AS `name`'; 
+            $chars = Band::model()->findAll($activeCharCriteria);
+
+            // Add those characters to an array and assign them to activeCharSet
+            foreach($chars as $char)
+                $activeChars[]=$char->name;
+            $alphaPages->activeCharSet=$activeChars;
+
+            $alphaPages->applyCondition($criteria);
+            
+            if($q){        
+               
+                $criteria->condition='name LIKE :name';
+                $criteria->params=array(':name'=>"%$q%");
+            }
+            
+            $pages->setItemCount(Band::model()->count($criteria));
+            $pages->applyLimit($criteria);
+            
+            // results per page
+            $pages->pageSize=Yii::app()->params['bandPageSize'];
+            $pages->applyLimit($criteria);
+            
+            $data->alphaPages = $alphaPages;
+            $data->pages = $pages;
+            $data->bands = Band::model()->findAll($criteria);
+            
+            return $data;
+            
+        }
 }
