@@ -74,9 +74,14 @@ $this->menu=array(
         <div id="rt">
                 <p><strong>Pilte: </strong></p>
                 <ul>
-                <li><?=CHtml::image( Yii::app()->baseUrl . '/images/band_dummy.jpg');  ?></li>
-                <li><?=CHtml::image( Yii::app()->baseUrl . '/images/band_dummy.jpg', 'Alt txt', array('class'=>'selected'));  ?></li>
-                <li><?=CHtml::image( Yii::app()->baseUrl . '/images/band_dummy.jpg');  ?></li>
+                <?php 
+                    $pics = json_decode($model->pics);
+                ?>
+                <?php if($pics): ?>    
+                    <?php foreach(json_decode($model->pics) as $pic):?>
+                        <li><?=CHtml::link(CHtml::image( Yii::app()->baseUrl . '/' . $pic->tn),Yii::app()->baseUrl . '/' . $pic->main,array('rel'=>'colorbox'));  ?></li>
+                    <?php endforeach; ?>
+                <?php endif; ?>
                 </ul>
         </div>
         <div class="clear"></div>

@@ -38,12 +38,12 @@ class BandController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 
-				'actions'=>array('index','view','autocomplete','rating','upload'),
+				'actions'=>array('index','view','autocomplete','rating','upload','ajaxpics'),
 
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','managepics'),
+				'actions'=>array('create','update','managepics','deletepic'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -237,38 +237,55 @@ class BandController extends Controller
 	 *Faili upload
 	 */
 	public function actionUpload()
-	{
+	{          
             if (!empty($_FILES)) {
-                    $tempFile = $_FILES['Filedata']['tmp_name'];
-                    //echo $_SERVER['DOCUMENT_ROOT'];
-                    $targetPath = $_SERVER['DOCUMENT_ROOT'].Yii::app()->baseUrl . '/uploads/band/';
-                    $uploadPath = Yii::app()->baseUrl . '/uploads/band/';
-                    $ext = substr($_FILES['Filedata']['name'], -3);
-                    $folder = $_GET['id'];
-                    $folderPath = $targetPath . $folder.'/';
-                    $newFileName = uniqid() . '.' . $ext;
-                    $targetFile =  str_replace('//','/',$folderPath) . $newFileName;
-                    
-                    if(!is_dir($folderPath))
-                    {
-                        mkdir(str_replace('//','/',$folderPath), 0755, true);
+                
+                $folder = 'uploads/band/'.$_GET['id'];
+                $name = uniqid();
+                
+                $img = Yii::app()->imagemod->load($_FILES['Filedata']);
+                
+                //main pic
+                if ($img->uploaded) {
+                    $img->image_convert         = 'jpg';
+                    $img->jpeg_quality          = 80;
+                    $img->image_resize          = true;
+                    $img->image_ratio_y         = true;
+                    $img->image_x               = 640;
+                    $img->file_new_name_body = $name;
+                    $img->process($folder);
+                    $url_big = str_replace('\\','/',$img->file_dst_pathname) ;
+                    if ($img->processed) {
+                      echo 'image resized';
+                      $img->clean();
+                    } else {
+                      echo 'error : ' . $img->error;
                     }
-                    
-                    if(move_uploaded_file($tempFile,$targetFile)){
-                        
-                        $model = Band::model()->findByPk($_GET['id']);
-                        
-                        $pics = json_decode($model->pics,true);
-                        YII::log($pics);
-                        array_push($pics,$uploadPath.$newFileName);
-                        $model->pics = json_encode($pics);
-                        $model->save(false);
-                        
-                    }
-                        
+                }                
+                
+                //thumbnail
+                $img = Yii::app()->imagemod->load($url_big);
+                $img->image_resize          = true;
+                $img->image_ratio_crop      = true;
+                $img->image_y               = 100;
+                $img->image_x               = 100;
+                $img->file_new_name_body = $name;
+                $img->process($folder.'/tn');
+                $url_tn = str_replace('\\','/',$img->file_dst_pathname);
 
-                        
-                    
+
+                $model = Band::model()->findByPk($_GET['id']);
+
+                if(strlen($model->pics) == 0){
+                    $pics = array();
+                }
+                else{
+                    $pics = json_decode($model->pics,true);
+                }
+                array_push($pics,array('main'=>$url_big,'tn'=>$url_tn,));
+                $model->pics = json_encode($pics);
+                $model->save(false);
+            
                     //echo CHtml::asset($targetFile);
             }
 	}
@@ -276,10 +293,33 @@ class BandController extends Controller
 	public function actionManagepics()
 	{
            
-            $this->layout = '//layouts/column1';
+            $this->layout = '//layouts/column1';          
+            $this->render('managepics');
+	}
+        
+        public function actionAjaxpics()
+	{           
             $model = Band::model()->findByPk(Yii::app()->user->band->id);
+            $this->renderPartial('_managepics',array('pics'=>$model->pics));
+	}
+        
+        public function actionDeletepic()
+	{   
+            if(isset($_GET['pic'])){
+                $model = Band::model()->findByPk(Yii::app()->user->band->id);
+                $pics = json_decode($model->pics,true);
+     
+                unlink(dirname(Yii::app()->request->scriptFile).'/'.$pics[$_GET['pic']]['main']);
+                unlink(dirname(Yii::app()->request->scriptFile).'/'.$pics[$_GET['pic']]['tn']);
+                unset($pics[$_GET['pic']]);
+                $model->pics = json_encode($pics);
+                $model->save(false);
+                
+                Utils::setFlash('success', 'Pilt kustutatud','',true);
+                $this->redirect(array('managepics'));
+            }
             
-            $this->render('managepics',array('pics'=>$model->pics));
+                       
 	}
         
 

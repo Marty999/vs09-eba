@@ -40,15 +40,20 @@ $this->breadcrumbs=array(
      $this->widget('application.extensions.uploadifysazilo.uploadifysaziloWidget', 
                                                 array('multi'=>'true',
                                                       'uploadScript'=>Yii::app()->createUrl('band/upload',array('id'=>Yii::app()->user->band->id)), //Controller and action to be performed
-                                                      'onCompleteJs'=>'alert(response);',
+                                                      'onCompleteJs'=>'loadPics();',
                                                       'buttonText'=> 'Vali failid',
                                                       'autoUpload'=>'true'));
-     
-     
-     $pics = json_decode($pics);
-     foreach($pics as $pic){
-         
-         echo CHtml::image($pic);
+?>
+
+<script type="text/javascript">
+    function loadPics(){
+        $('#pics').load('<?=Yii::app()->createUrl('band/ajaxpics',array('id'=>Yii::app()->user->band->id));?>');
+    }
+    $(document).ready(function(){
+    loadPics();
+    });
+</script>
+
+<div id="pics">
     
-     }
-     ?>
+</div>

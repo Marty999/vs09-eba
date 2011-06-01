@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/notify.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/colorbox.css" />
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox.js"></script>
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -19,7 +21,9 @@
 		
 	
 	});
-	
+	$("a[rel='colorbox']").colorbox({
+            'current': '{current}/{total}'
+        });
 	
 	});
 	

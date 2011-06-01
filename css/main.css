@@ -108,5 +108,11 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 .breadcrumbs{margin:0 0 15px 0;}
 
 
+/*pildi admin*/
+#pic-list{}
+#pic-list LI{float:left;margin:0px 10px 10px 0;position:relative;}
+#pic-list LI A{position:absolute;top:0px;right:0px;padding:0;margin:0;}
+
+
 #footer{background-color:#e7e2dc;font-size:13px;text-align:center;border-top:3px solid green; }
 #footer P{padding-top:4px;} /*Võib tekitada scrollbari kui venitab footeri kõrguse suuremaks*/
