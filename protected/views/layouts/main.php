@@ -33,11 +33,13 @@
 		<div id="header">
 			<div class="content">
 				<div class="top">
+
 					<a href="<?=Yii::app()->homeUrl?>"><h1><img src="<?php echo Yii::app()->request->baseUrl.'/images/logo.png';?>" /><span><?php echo CHtml::encode(Yii::app()->name); ?></span></h1></a>
                                       <?php
                                         $userband = false;
                                         $userband_id = false;
                                         if(!Yii::app()->user->isGuest){
+
                                                 $userband = Yii::app()->user->band->name; 
                                                 $userband_id =Yii::app()->user->band->id;
                                         }

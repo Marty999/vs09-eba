@@ -37,7 +37,9 @@ class BandController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
+
 				'actions'=>array('index','view','autocomplete','rating','upload'),
+
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -280,4 +282,6 @@ class BandController extends Controller
             $this->render('managepics',array('pics'=>$model->pics));
 	}
         
+
+
 }

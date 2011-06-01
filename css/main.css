@@ -82,6 +82,7 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 #bands LI .details-link  A:hover {text-decoration:underline;}
 #bands LI .details-link  A IMG{margin-right:2px;position:relative;bottom:2px;}
 
+
 /*detail css*/
 #content {padding-left: 20px;}
 #t, #b {border: 1px solid #ccc; border-left: none;}

@@ -2,27 +2,21 @@
 -- version 3.3.9
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: May 31, 2011 at 09:42 PM
--- Server version: 5.1.53
--- PHP Version: 5.3.4
+-- Masin: localhost
+-- Tegemisaeg: 01.06.2011 kell 15:07:36
+-- Serveri versioon: 5.1.53
+-- PHP versioon: 5.3.4
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
 --
--- Database: `eba`
+-- Andmebaas: `eba`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_band`
+-- Struktuur tabelile `tbl_band`
 --
 
 CREATE TABLE IF NOT EXISTS `tbl_band` (
@@ -35,28 +29,29 @@ CREATE TABLE IF NOT EXISTS `tbl_band` (
   `activeSince` int(4) NOT NULL,
   `email` varchar(255) NOT NULL,
   `website` varchar(255) NOT NULL,
+  `pics` longtext NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `genre_id` (`genre_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
--- Dumping data for table `tbl_band`
+-- Tabeli andmete salvestamine `tbl_band`
 --
 
-INSERT INTO `tbl_band` (`id`, `user_id`, `genre_id`, `name`, `rating`, `description`, `activeSince`, `email`, `website`) VALUES
-(1, 1, 1, 'Smilers', '6.72', 'See on smilers', 1999, 'sml@esd', 'www.termikas.ee'),
-(2, 1, 1, 'Test', '6.00', 'See on test', 0, '', ''),
-(3, 1, 1, 'Test', '0.00', 'See on test', 1999, '', ''),
-(4, 1, 1, '11naaaasdasd', '0.00', 'asdasd', 1233, '', ''),
-(5, 35, 1, 'tere', '0.00', '', 1999, '', ''),
-(6, 36, 1, 'Superband', '0.00', '<h3>Tere see on minu band <b>asdasd</b></h3>', 1999, '', ''),
-(7, 37, 1, 'martin', '0.00', 'asdasdfasdf <br>', 1999, '', '');
+INSERT INTO `tbl_band` (`id`, `user_id`, `genre_id`, `name`, `rating`, `description`, `activeSince`, `email`, `website`, `pics`) VALUES
+(1, 1, 1, 'Smilers', '6.72', 'See on smilers', 1999, 'sml@esd', 'www.termikas.ee', '["\\/eba\\/uploads\\/band\\/4de635caa8282.JPG","\\/eba\\/uploads\\/band\\/4de635cce92f9.PNG","\\/eba\\/uploads\\/band\\/4de635ce44d51.JPG","\\/eba\\/uploads\\/band\\/4de65597aa5cd.jpg"]'),
+(2, 1, 1, 'Test', '6.00', 'See on test', 0, '', '', ''),
+(3, 1, 1, 'Test', '0.00', 'See on test', 1999, '', '', ''),
+(4, 1, 1, '11naaaasdasd', '0.00', 'asdasd', 1233, '', '', ''),
+(5, 35, 1, 'tere', '0.00', '', 1999, '', '', ''),
+(6, 36, 1, 'Superband', '0.00', '<h3>Tere see on minu band <b>asdasd</b></h3>', 1999, '', '', ''),
+(7, 37, 1, 'martin', '0.00', 'asdasdfasdf <br>', 1999, '', '', '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_genre`
+-- Struktuur tabelile `tbl_genre`
 --
 
 CREATE TABLE IF NOT EXISTS `tbl_genre` (
@@ -67,7 +62,7 @@ CREATE TABLE IF NOT EXISTS `tbl_genre` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
--- Dumping data for table `tbl_genre`
+-- Tabeli andmete salvestamine `tbl_genre`
 --
 
 INSERT INTO `tbl_genre` (`id`, `name`, `description`) VALUES
@@ -76,7 +71,7 @@ INSERT INTO `tbl_genre` (`id`, `name`, `description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_user`
+-- Struktuur tabelile `tbl_user`
 --
 
 CREATE TABLE IF NOT EXISTS `tbl_user` (
@@ -89,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=38 ;
 
 --
--- Dumping data for table `tbl_user`
+-- Tabeli andmete salvestamine `tbl_user`
 --
 
 INSERT INTO `tbl_user` (`id`, `username`, `password`, `email`, `level`) VALUES

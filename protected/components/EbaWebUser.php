@@ -10,7 +10,7 @@ class EbaWebUser extends CWebUser{
            
            return $user->level==LevelLookUp::ADMIN;
         return false;
-    } 
+	}
     // Load user model.
     protected function loadUser()
     {

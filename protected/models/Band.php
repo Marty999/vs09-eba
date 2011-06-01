@@ -13,11 +13,10 @@
  * @property integer $activeSince
  * @property string $website
  * @property string $email
- * @property string $pics
  *
  * The followings are the available model relations:
  * @property User $user
- * @property string $pics
+ * @property Genre $genre
  */
 class Band extends CActiveRecord
 {

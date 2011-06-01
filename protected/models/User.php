@@ -174,6 +174,7 @@ class User extends CActiveRecord
                                 
             }
         }
+
         
         public function getBand(){
           if(!$this->id)

@@ -10,31 +10,8 @@ $this->widget('CLinkPager', array(
 <ul id="bands">
     <?php foreach($bands as $band): ?>
     <li>
-        <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2>
-        <p class="votes">
-            <?php $this->widget('CStarRating',array(
-                'model'=>'Band',
-                'attribute'=>'rating',
-                'name'=>'rating-'.$band->id,
-                'id'=>'rating-'.$band->id,
-                'titles'=>false,
-                'readOnly'=>true,
-                'value'=>intval($band->rating),
-                'callback'=>'
-                    function(){
-                    var item = "#rating-'.$band->id.' > input";
-                    $.ajax({
-                        type: "POST",
-                        url: "'.Yii::app()->createUrl('band/rating').'",
-                        data: "id='.$band->id.'&rate=" + $(this).val(),
-                        success: function(res){
-                            alert(res);
-                            jQuery(item).rating("value",res);
-                             
-                        
-                    }})}'
-            ));?>
-        </p>
+        <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2><p class="votes">votes</p>
+
         <div class="clear"></div>
         <div class="extra">
                 <img src="<?php echo Yii::app()->request->baseUrl.'/images/band_dummy.jpg';?>" alt="" />
