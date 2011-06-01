@@ -1,53 +1,86 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html lang="ee-ET">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
-
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
-
+	<meta charset="UTF-8">
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/footer.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/notify.css" />
+        <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$('#bands LI').click(function(event){
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+		$(this).toggleClass('active');
+		$(this).find('.extra').slideDown(500);
+		$(this).siblings().removeClass('active').find('.extra').slideUp(500);
+		
+	
+	});
+	
+	
+	});
+	
+	
+	</script>
 </head>
 <body>
-
-<div class="container" id="page">
-
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
-	<div id="footer">
-		<?php echo CHtml::encode(Yii::app()->name); ?> 
-	</div><!-- footer -->
-
-</div><!-- page -->
-
+<div id="wrap">
+	<div id="main">
+		<!-- header -->
+		<div id="header">
+			<div class="content">
+				<div class="top">
+					<a href="<?=Yii::app()->homeUrl?>"><h1><img src="<?php echo Yii::app()->request->baseUrl.'/images/logo.png';?>" /><span><?php echo CHtml::encode(Yii::app()->name); ?></span></h1></a>
+                                      <?php
+                                        $userband = false;
+                                        $userband_id = false;
+                                        if(!Yii::app()->user->isGuest){
+                                                $userband = Yii::app()->user->band->name; 
+                                                $userband_id =Yii::app()->user->band->id;
+                                        }
+                                        $this->widget('zii.widgets.CMenu',array(
+                                        'items'=>array(
+                                          array('label'=>'Avaleht', 'url'=>array('band/index')),
+                                          array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
+                                          array('label'=>'Contact', 'url'=>array('/site/contact')),
+                                          array('label'=>'Logi sisse', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+                                          array('label'=>'Registreeri', 'url'=>array('/site/register'), 'visible'=>Yii::app()->user->isGuest),
+                                          array('label'=>'Minu Band ('.$userband.')', 'url'=>array('/band/view', 'id'=>$userband_id), 'visible'=>!Yii::app()->user->isGuest),
+                                          array('label'=>'Logi välja ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+                                        ),
+                                        'id' => 'menu',
+                                      )); ?>
+					<div class="clear"></div>
+				</div>
+                            <?php if($this->getId() == 'band'): ?>
+                            <div id="alpha-menu">
+                                <?php
+                                    $data = Band::model()->listBands();
+                                    $this->widget('application.extensions.alphapager.ApLinkPager',array(
+                                    'pages'=>$data->alphaPages,
+                                    'showNumPage' => true,
+                                    'htmlOptions'=> array('class'=>false),
+                                    'header' => false,
+                                    'allPageLabel'=> 'Kõik',
+                                    ));
+                                ?>
+				</div>
+                            <?php endif; ?>
+			</div>
+		</div>
+		
+		<!-- BODY -->
+		<div id="body">
+			<div class="content">
+          <?php $this->renderPartial('//site/userflash'); ?>           
+          <?php echo $content; ?>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer"><p class="content">#Footer<p></div>	
 </body>
 </html>

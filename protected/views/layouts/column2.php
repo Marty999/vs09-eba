@@ -1,23 +1,32 @@
 <?php $this->beginContent('//layouts/main'); ?>
-<div class="container">
-	<div class="span-19">
-		<div id="content">
-			<?php echo $content; ?>
-		</div><!-- content -->
-	</div>
-	<div class="span-5 last">
-		<div id="sidebar">
-		<?php
-			$this->beginWidget('zii.widgets.CPortlet', array(
-				'title'=>'Operations',
-			));
-			$this->widget('zii.widgets.CMenu', array(
-				'items'=>$this->menu,
-				'htmlOptions'=>array('class'=>'operations'),
-			));
-			$this->endWidget();
-		?>
-		</div><!-- sidebar -->
-	</div>
+<div id="body">
+    <div class="content">
+                <?php if (isset($this->breadcrumbs)): ?>
+                    <?php
+                    $this->widget('zii.widgets.CBreadcrumbs', array(
+                        'links' => $this->breadcrumbs,
+                        'homeLink'=>CHtml::link('Avaleht', Yii::app()->homeUrl),
+                    ));
+                    ?><!-- breadcrumbs -->
+                <?php endif ?>
+        <div class="left">
+            <div class="inner">
+                <?php
+                    $this->widget('search');
+                    
+       
+                ?>
+            </div>
+        </div>
+        <div class="right">
+            <div class="top"></div>
+            <div id="content">
+                <?php echo $content; ?>
+            </div>
+            <div class="bottom"></div>
+        </div>
+        <div id="clear"></div>
+    </div>
 </div>
 <?php $this->endContent(); ?>
+

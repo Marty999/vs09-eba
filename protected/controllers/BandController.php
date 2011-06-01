@@ -7,7 +7,17 @@ class BandController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
-
+        
+        //kui esitähe järgi valida band siis koristame otsingu 
+        public function createUrl($route,$params=array(),$ampersand='&')
+	{
+            if (isset($params['alpha'])){
+            unset($params['search']);
+            }
+		
+		return parent::createUrl($route, $params, $ampersand);
+	}
+        
 	/**
 	 * @return array action filters
 	 */
@@ -27,11 +37,11 @@ class BandController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','autocomplete','rating','upload'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','managepics'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -43,13 +53,56 @@ class BandController extends Controller
 			),
 		);
 	}
+        
+        
+        /*
+         * Autocomplete otsingu jaoks
+         */
+         public function actionAutocomplete() {
+            $res =array();
 
+            if (isset($_GET['term'])) {
+                    Yii::trace($_GET['term']);
+                    // http://www.yiiframework.com/doc/guide/database.dao
+                    $qtxt ="SELECT name FROM tbl_band WHERE name LIKE :name";
+                    $command =Yii::app()->db->createCommand($qtxt);
+                    $command->bindValue(":name", '%'.$_GET['term'].'%', PDO::PARAM_STR);
+                    $res =$command->queryColumn();
+            }
+
+            echo CJSON::encode($res);
+            Yii::app()->end();
+        }
+        
+        /*
+         * Rating
+         * 
+         */
+         public function actionRating() {
+             
+             if (isset($_POST['id']) && isset($_POST['rate']) && $_POST['rate'] <= 10) {
+                 $band = $this->loadModel($_POST['id']);
+                 if($band->rating > 0){
+                    $band->rating = ($_POST['rate']+$band->rating)/2;
+                 }
+                 else{
+                     $band->rating = $_POST['rate'];
+                 }
+                 $band->save(false);
+                 
+                 echo intval($band->rating);
+                 
+                 
+             }
+
+         }
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
 	public function actionView($id)
 	{
+                $this->layout='//layouts/column1';
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -69,6 +122,7 @@ class BandController extends Controller
 		if(isset($_POST['Band']))
 		{
 			$model->attributes=$_POST['Band'];
+                        $model->user_id = Yii::app()->user->id;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -127,10 +181,13 @@ class BandController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Band');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+
+            $data = Band::model()->listBands(CHttpRequest::getParam('search',''));
+  
+            $this->render('index', array(
+                'bands' => $data->bands,
+                 'pages' => $data->pages
+            ));
 	}
 
 	/**
@@ -173,4 +230,54 @@ class BandController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
+        /**
+	 *Faili upload
+	 */
+	public function actionUpload()
+	{
+            if (!empty($_FILES)) {
+                    $tempFile = $_FILES['Filedata']['tmp_name'];
+                    //echo $_SERVER['DOCUMENT_ROOT'];
+                    $targetPath = $_SERVER['DOCUMENT_ROOT'].Yii::app()->baseUrl . '/uploads/band/';
+                    $uploadPath = Yii::app()->baseUrl . '/uploads/band/';
+                    $ext = substr($_FILES['Filedata']['name'], -3);
+                    $folder = $_GET['id'];
+                    $folderPath = $targetPath . $folder.'/';
+                    $newFileName = uniqid() . '.' . $ext;
+                    $targetFile =  str_replace('//','/',$folderPath) . $newFileName;
+                    
+                    if(!is_dir($folderPath))
+                    {
+                        mkdir(str_replace('//','/',$folderPath), 0755, true);
+                    }
+                    
+                    if(move_uploaded_file($tempFile,$targetFile)){
+                        
+                        $model = Band::model()->findByPk($_GET['id']);
+                        
+                        $pics = json_decode($model->pics,true);
+                        YII::log($pics);
+                        array_push($pics,$uploadPath.$newFileName);
+                        $model->pics = json_encode($pics);
+                        $model->save(false);
+                        
+                    }
+                        
+
+                        
+                    
+                    //echo CHtml::asset($targetFile);
+            }
+	}
+        
+	public function actionManagepics()
+	{
+           
+            $this->layout = '//layouts/column1';
+            $model = Band::model()->findByPk(Yii::app()->user->band->id);
+            
+            $this->render('managepics',array('pics'=>$model->pics));
+	}
+        
 }

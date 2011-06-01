@@ -8,7 +8,8 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Eesti Bandide andmebaas',
-
+        'defaultController'=>'band',
+        'language'=>'et',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -33,10 +34,15 @@ return array(
 	// application components
 	'components'=>array(
 		'user'=>array(
+                        // User class
+                         'class'=>'application.components.EbaWebUser',
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		// uncomment the following to enable URLs in path-format
+                'coreMessages'=>array(
+                    'basePath'=>'protected/messages',
+		),
+                // uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
@@ -54,11 +60,13 @@ return array(
 		// uncomment the following to use a MySQL database
 	
 		'db'=>array(
+                        'class'=>'CDbConnection',
 			'connectionString' => 'mysql:host=localhost;dbname=eba',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+                        'enableParamLogging' => true,
 		),
 		
 		'errorHandler'=>array(
@@ -71,13 +79,15 @@ return array(
 				array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
+                                        'logFile'=>'eba_log.txt'                                        
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
+                                        'levels'=>'error, warning, trace',
 				),
-				*/
+				
 			),
 		),
 	),
@@ -87,5 +97,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+                //bände ühel lehel
+		'bandPageSize'=>2,
 	),
 );

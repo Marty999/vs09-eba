@@ -8,21 +8,28 @@
  * @property integer $user_id
  * @property integer $genre_id
  * @property string $name
- * @property string $description_short
- * @property string $description_long
- * @property integer $active_since
- * @property string $epost
- * @property string $webpage
+ * @property string $rating
+ * @property string $description
+ * @property integer $activeSince
+ * @property string $website
+ * @property string $email
+ * @property string $pics
+ *
+ * The followings are the available model relations:
+ * @property User $user
+ * @property string $pics
  */
 class Band extends CActiveRecord
 {
-	/**
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @return Band the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
-		return parent::model($className);
+      
+          
+                return parent::model($className);
 	}
 
 	/**
@@ -41,12 +48,13 @@ class Band extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, genre_id, name, description_short, description_long, active_since, epost, webpage', 'required'),
-			array('user_id, genre_id, active_since', 'numerical', 'integerOnly'=>true),
-			array('name, epost, webpage', 'length', 'max'=>255),
+			array('user_id, genre_id, name, description, activeSince, website, email', 'required'),
+			array('user_id, genre_id, activeSince', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>100),
+			array('website, email', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, user_id, genre_id, name, description_short, description_long, active_since, epost, webpage', 'safe', 'on'=>'search'),
+			array('id, user_id, genre_id, name, description, activeSince, website, email', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +66,8 @@ class Band extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
+			'genre' => array(self::BELONGS_TO, 'Genre', 'genre_id'),
 		);
 	}
 
@@ -71,11 +81,12 @@ class Band extends CActiveRecord
 			'user_id' => 'User',
 			'genre_id' => 'Genre',
 			'name' => 'Name',
-			'description_short' => 'Description Short',
-			'description_long' => 'Description Long',
-			'active_since' => 'Active Since',
-			'epost' => 'Epost',
-			'webpage' => 'Webpage',
+                        'rating' => 'Rating',
+			'description' => 'Description',
+			'activeSince' => 'Active Since',
+			'website' => 'Website',
+			'email' => 'Email',
+			'pics' => 'Pildid',
 		);
 	}
 
@@ -94,14 +105,74 @@ class Band extends CActiveRecord
 		$criteria->compare('user_id',$this->user_id);
 		$criteria->compare('genre_id',$this->genre_id);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('description_short',$this->description_short,true);
-		$criteria->compare('description_long',$this->description_long,true);
-		$criteria->compare('active_since',$this->active_since);
-		$criteria->compare('epost',$this->epost,true);
-		$criteria->compare('webpage',$this->webpage,true);
+                $criteria->compare('rating',$this->rating,true);
+		$criteria->compare('description',$this->description,true);
+		$criteria->compare('activeSince',$this->activeSince);
+		$criteria->compare('website',$this->website,true);
+		$criteria->compare('email',$this->email,true);
 
 		return new CActiveDataProvider(get_class($this), array(
 			'criteria'=>$criteria,
 		));
 	}
+        
+        /*
+         * Kasutaja nimi
+         */ 
+        public function getUsername(){
+            
+            $user = User::model()->findByPk($this->user_id);
+            Yii::trace($this->user_id,'getusername');
+            return $user->username;
+            
+        }
+        
+        
+        /*
+         * 
+         * 
+         */
+        public function listBands($q = false){
+            
+            Yii::import('application.extensions.alphapager.ApPagination');
+            
+            $criteria = new CDbCriteria();
+            $alphaPages = new ApPagination('name');
+            $alphaPages->setCharSet(array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','Õ','Ä','Ö','Ü','X','Y'));
+            $alphaPages->activeNumbers = Band::model()->count("SUBSTRING(`name` FROM 1 FOR 1) BETWEEN '0' AND '9'") > 0;
+            //teeb automaatselt instantsi CPaginationist
+            $pages = $alphaPages->pagination;
+            $activeCharCriteria=new CDbCriteria;
+            
+            // Select only the first letter of the attribute used for AlphaPager
+            $activeCharCriteria->select='DISTINCT(LEFT(UPPER(`name`),1)) AS `name`'; 
+            $chars = Band::model()->findAll($activeCharCriteria);
+
+            // Add those characters to an array and assign them to activeCharSet
+            foreach($chars as $char)
+                $activeChars[]=$char->name;
+            $alphaPages->activeCharSet=$activeChars;
+
+            $alphaPages->applyCondition($criteria);
+            
+            if($q){        
+               
+                $criteria->condition='name LIKE :name';
+                $criteria->params=array(':name'=>"%$q%");
+            }
+            
+            $pages->setItemCount(Band::model()->count($criteria));
+            $pages->applyLimit($criteria);
+            
+            // results per page
+            $pages->pageSize=Yii::app()->params['bandPageSize'];
+            $pages->applyLimit($criteria);
+            
+            $data->alphaPages = $alphaPages;
+            $data->pages = $pages;
+            $data->bands = Band::model()->findAll($criteria);
+            
+            return $data;
+            
+        }
 }

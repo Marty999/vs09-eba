@@ -36,7 +36,9 @@ class LoginForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'rememberMe'=>'Remember me next time',
+			'username'=>'Kasutajanimi',
+			'password'=>'Parool',
+			'rememberMe'=>'Mäleta mind',
 		);
 	}
 
@@ -50,7 +52,7 @@ class LoginForm extends CFormModel
 		{
 			$this->_identity=new UserIdentity($this->username,$this->password);
 			if(!$this->_identity->authenticate())
-				$this->addError('password','Incorrect username or password.');
+				$this->addError('password','Vale kasutajanimi või parool.');
 		}
 	}
 
@@ -69,6 +71,7 @@ class LoginForm extends CFormModel
 		{
 			$duration=$this->rememberMe ? 3600*24*30 : 0; // 30 days
 			Yii::app()->user->login($this->_identity,$duration);
+                        Utils::setFlash('secure', 'Tere '.Yii::app()->user->name.'! Olete sisselogitud!','',true);
 			return true;
 		}
 		else

@@ -1,8 +1,7 @@
 <?php
 $this->breadcrumbs=array(
-	'Bands'=>array('index'),
-	$model->name=>array('view','id'=>$model->id),
-	'Update',
+	'Minu bänd'=>array('view','id'=>$model->id),
+	'Muuda',
 );
 
 $this->menu=array(
@@ -13,6 +12,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Band <?php echo $model->id; ?></h1>
+<h1>Muuda bändi "<?php echo $model->name; ?>"</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
