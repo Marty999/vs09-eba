@@ -88,11 +88,13 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 #t, #b {border: 1px solid #ccc; border-left: none;}
 #b{border-top:none;}
 #lt, #lb {width: 600px; float: left; border-right: 1px solid #fff; padding: 10px 10px 0 0;}
-#rt, #rb {width: 290px; float: right; padding:0 10px; background-color: #eee;}
+#rt, #rb {width: 298px; float: right; background-color: #eee;}
+#rb P,#rb UL{padding-left:10px;}
 #lt{position:relative;padding-top:40px;}
 #rt P,#rb P{margin-top:10px;}
-#rt img {border: 2px solid #fff; margin: 0 10px 10px 0;}
-#rt li {float: left;}
+#rt img {border: 2px solid #fff;}
+#rt UL{margin-left:10px;}
+#rt li {float: left;margin: 0 10px 10px 0;}
 #rt UL .selected{
 	-moz-box-shadow: 1px 1px 6px rgba(0,0,0,.5);
 	box-shadow: 1px 1px 8px rgba(0,0,0,.4);
@@ -109,6 +111,9 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 
 
 /*pildi admin*/
+#uploader,#pics{float:left;}
+#uploader{width:400px;}
+#pics{width:460px;border-left:1px solid red;padding-left:50px;}
 #pic-list{}
 #pic-list LI{float:left;margin:0px 10px 10px 0;position:relative;}
 #pic-list LI A{position:absolute;top:0px;right:0px;padding:0;margin:0;}

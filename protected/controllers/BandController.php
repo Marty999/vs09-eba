@@ -238,15 +238,18 @@ class BandController extends Controller
 	 */
 	public function actionUpload()
 	{          
+            
             if (!empty($_FILES)) {
                 
                 $folder = 'uploads/band/'.$_GET['id'];
                 $name = uniqid();
-                
+
                 $img = Yii::app()->imagemod->load($_FILES['Filedata']);
-                
+
                 //main pic
+                    Yii::log('Fail olemas'.$img->file_max_size, 'error', 'upload files');
                 if ($img->uploaded) {
+                    
                     $img->image_convert         = 'jpg';
                     $img->jpeg_quality          = 80;
                     $img->image_resize          = true;
@@ -254,39 +257,47 @@ class BandController extends Controller
                     $img->image_x               = 640;
                     $img->file_new_name_body = $name;
                     $img->process($folder);
-                    $url_big = str_replace('\\','/',$img->file_dst_pathname) ;
                     if ($img->processed) {
-                      echo 'image resized';
-                      $img->clean();
-                    } else {
-                      echo 'error : ' . $img->error;
+                     
+                        $url_big = str_replace('\\','/',$img->file_dst_pathname) ;
+                        $img->clean();
+
+                        //thumbnail
+                        Yii::log('Fail olemas'.$img->error, 'error', 'upload files error');
+                        $img = Yii::app()->imagemod->load($url_big);
+                        $img->image_resize          = true;
+                        $img->image_ratio_crop      = true;
+                        $img->image_x               = 130;
+                        $img->image_y               = 100;
+                        $img->file_new_name_body = $name;
+                        $img->process($folder.'/tn');
+                        if($img->processed){                            
+                                $url_tn = str_replace('\\','/',$img->file_dst_pathname);
+
+                                $model = Band::model()->findByPk($_GET['id']);
+                                if(strlen($model->pics) == 0){
+                                $pics = array();
+                            }
+                            else{
+                                $pics = json_decode($model->pics,true);
+                            }
+                            array_push($pics,array('main'=>$url_big,'tn'=>$url_tn,));
+                            $model->pics = json_encode($pics);
+                            $model->save(false);
+                        }
+                        else{
+                            
+                            Yii::log('Pildi thumbnaili error:'.$img->error, 'error', 'upload'); 
+
+                        }
+                    }else{
+                        
+                        Yii::log('Pildi töötlemise error:'.$img->error, 'error', 'upload');
                     }
-                }                
-                
-                //thumbnail
-                $img = Yii::app()->imagemod->load($url_big);
-                $img->image_resize          = true;
-                $img->image_ratio_crop      = true;
-                $img->image_y               = 100;
-                $img->image_x               = 100;
-                $img->file_new_name_body = $name;
-                $img->process($folder.'/tn');
-                $url_tn = str_replace('\\','/',$img->file_dst_pathname);
-
-
-                $model = Band::model()->findByPk($_GET['id']);
-
-                if(strlen($model->pics) == 0){
-                    $pics = array();
+                }else{
+                    
+                        Yii::log('Pildi uploadi error:'.$img->error, 'error', 'upload');
                 }
-                else{
-                    $pics = json_decode($model->pics,true);
-                }
-                array_push($pics,array('main'=>$url_big,'tn'=>$url_tn,));
-                $model->pics = json_encode($pics);
-                $model->save(false);
-            
-                    //echo CHtml::asset($targetFile);
             }
 	}
         

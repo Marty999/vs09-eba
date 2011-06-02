@@ -81,6 +81,7 @@ class User extends CActiveRecord
 			'password2' => 'Parooli kordus',
 			'email' => 'E-posti aadress',
 			'bandname' => 'Bändi nimi',
+			'description' => 'Lühikirjeldus',
                         'verifyCode' => 'Kontrollkood',
 		);
 	}

@@ -5,37 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<style type="text/css">
-         .fileUploadQueueItem {
-  background-color: #F5F5F5;
-  border: 2px solid #E5E5E5;
-  font: 11px Verdana, Geneva, sans-serif;
-  margin-top: 5px;
-  padding: 10px;
-  width: 350px;
-}
- .uploadifyError {
-  background-color: #FDE5DD !important;
-  border: 2px solid #FBCBBC !important;
-}
- .fileUploadQueueItem .cancel {
-  float: right;
-}
- .fileUploadQueueItem .completed {
-  background-color: #E5E5E5;
-}
- .fileUploadProgress {
-  background-color: #E5E5E5;
-  margin-top: 10px;
-  width: 100%;
-}
- .fileUploaProgressBar {
-  background-color: #0099FF;
-  height: 3px;
-  width: 1px;
-}				
-</style>
-
+<div id="uploader">
 <?php
      $this->widget('application.extensions.uploadifysazilo.uploadifysaziloWidget', 
                                                 array('multi'=>'true',
@@ -53,7 +23,8 @@ $this->breadcrumbs=array(
     loadPics();
     });
 </script>
-
+</div>
 <div id="pics">
     
 </div>
+<div class="clear"></div>

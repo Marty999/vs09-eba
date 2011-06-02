@@ -81,7 +81,7 @@ class Band extends CActiveRecord
 			'genre_id' => 'Genre',
 			'name' => 'Name',
                         'rating' => 'Rating',
-			'description' => 'Description',
+			'description' => 'Lühikirjeldus',
 			'activeSince' => 'Active Since',
 			'website' => 'Website',
 			'email' => 'Email',

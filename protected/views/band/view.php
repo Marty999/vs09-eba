@@ -25,6 +25,18 @@ $this->menu=array(
 
 <h2 id="band_name"><?=$model->name?></h2><p id="genre">(Rock)</p>
 <div class="clear"></div>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=marty999"></script>
+<!-- AddThis Button END -->
 <div id="t">
         <div id="lt">
                 <p><strong>Tutvustus</strong></p>
@@ -108,7 +120,7 @@ $this->menu=array(
         <div class="clear"></div>
 </div>
 <script type="text/javascript">
-        $('#rt').height($('#t').height());
+        $('#rt').height($('#t').height()+1);
         $('#rb').height($('#b').height());
 </script>
 <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="www.eba.ee/test" num_posts="5" width="934"></fb:comments>
