@@ -74,28 +74,59 @@ class SiteController extends Controller
 	 */
 	public function actionRegister()
 	{
-		$model=new User;
-
+		$user=new User;
+                $band =new Band;
+                $genre = new Genre;
+                $genres= Genre::model()->findAll();
+                $genreList = array(''=>'',-1=>'-lisa uus-');
+                if($genre){
+                    foreach($genres as $val){
+                        
+                        $genreList[$val->id] = $val->name;
+                    }
+                }
                 // if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='register-form')
 		{
-			echo CActiveForm::validate($model);
+			echo CActiveForm::validate($user);
+			echo CActiveForm::validate($band);
 			Yii::app()->end();
 		}
                
-		if(isset($_POST['User']))
+		if(isset($_POST['User']) && isset($_POST['Band']))
 		{
-			$model->attributes=$_POST['User'];
-			$model->level = 0;
-			if($model->validate() && $model->register()){
-                                Utils::setFlash('success', 'Registreerimine õnnestus', 'Teie konto on loodud, palun vaadake oma e-posti!');
-                                $this->redirect('login');
+			$user->attributes=$_POST['User'];
+                        $band->attributes = $_POST['Band'];
+                        $genre->attributes = $_POST['Genre'];
+                        
+			$user->level = 0; //user
+                        //valideerime mõlemad mudelid
+                        $userValid = $user->validate(); 
+                        $bandValid = $band->validate();
+                        if($band->genre_id == -1){
+                            $genreValid = $genre->validate();                           
                         }
+                        
+			if($userValid && $bandValid && $user->save()){
+                                $band->user_id = $user->id;
+                                //kui on manuaalselt lisatud zanr
+                                if($band->genre_id == -1){
+                                    $genre->save();
+                                    $band->genre_id = $genre->id;
+                                }
+                                if($band->save()){
+                                    Utils::setFlash('success', 'Registreerimine õnnestus', 'Teie konto on loodud, palun vaadake oma e-posti!');
+                                    $this->redirect('login');
+                                }
+                                //kui bändi ei õnnestu salvestada kustutame ka lisatud kasutaja.
+                                $user->deleteByPk($user->id);
+                        }
+                        
                         Utils::setFlash('error', 'Viga', 'Mõned välja on jäänud täitmata!');
 		}
                 
 		// display the register form
-		$this->render('register',array('model'=>$model));
+		$this->render('register',array('user'=>$user,'band'=>$band,'genreList'=>$genreList,'genre'=>$genre));
 	}
         
        public function actionTest(){

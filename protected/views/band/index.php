@@ -10,7 +10,14 @@ $this->widget('CLinkPager', array(
 <ul id="bands">
     <?php foreach($bands as $band): ?>
     <li>
-        <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2><p class="votes">votes</p>
+        <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2>
+        <div id="votes" class="stat">
+        <div class="statVal">
+            <span class="ui-rater">
+                <span class="ui-rater-starsOff" style="width:90px;"><span class="ui-rater-starsOn" style="width:63px"></span></span>
+                <span class="ui-rater-rating">3.5</span>&#160;(<span class="ui-rater-rateCount">2</span>)
+            </span>
+        </div>
 
         <div class="clear"></div>
         <div class="extra">

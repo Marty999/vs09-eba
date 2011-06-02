@@ -17,8 +17,6 @@ class User extends CActiveRecord
 {
     public $password2;
     public $verifyCode;
-    public $bandname;
-    public $description;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return User the static model class
@@ -44,7 +42,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, password2, verifyCode, email, level, bandname, description', 'required'),
+			array('username, password, password2, verifyCode, email, level', 'required'),
 			array('username', 'validateUsername'),
 			array('username, password, password2, email', 'length', 'max'=>128),
                         array('email', 'email'),
@@ -80,8 +78,6 @@ class User extends CActiveRecord
 			'password' => 'Parool',
 			'password2' => 'Parooli kordus',
 			'email' => 'E-posti aadress',
-			'bandname' => 'Bändi nimi',
-			'description' => 'Lühikirjeldus',
                         'verifyCode' => 'Kontrollkood',
 		);
 	}
@@ -148,34 +144,7 @@ class User extends CActiveRecord
                         }
 		}
 	}
-        
-        
-        /*
-         * Uue kasutaja registreerimine
-         * 
-         */
-        public function register(){
-            
-            Yii::log($this->attributes);
-            if($this->save()){
-                $band = new Band;
-                $band->user_id = $this->id;
-                $band->genre_id = 1;
-                $band->activeSince = 1999;
-                $band->name = $this->bandname;
-                $band->description = $this->description;
-                if($band->save(false)){
-                        return true;
-                        
-                }
-                else{
-                    $this->deleteByPk($this->id);
-                
-                }                  
-                                
-            }
-        }
-
+       
         
         public function getBand(){
           if(!$this->id)

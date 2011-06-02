@@ -5,7 +5,6 @@
 		$this->breadcrumbs=array(
 				'Minu band',
 		);    
-		$this->widget('UserMenu');
      }
  }else{
     $this->breadcrumbs=array(

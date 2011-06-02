@@ -35,7 +35,7 @@ class Genre extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, description', 'required'),
+			array('name', 'required'),
 			array('name', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -61,8 +61,8 @@ class Genre extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'name' => 'Name',
-			'description' => 'Description',
+			'name' => 'Zanri nimi',
+			'description' => 'Zanri lühikirjeldus',
 		);
 	}
 

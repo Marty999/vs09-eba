@@ -47,7 +47,8 @@ class Band extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, genre_id, name, description, activeSince, website, email', 'required'),
+			array('name, genre_id, description', 'required'),
+			//array('user_id, genre_id, name, description, activeSince, website, email', 'required'),
 			array('user_id, genre_id, activeSince', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>100),
 			array('website, email', 'length', 'max'=>255),
@@ -78,8 +79,8 @@ class Band extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'user_id' => 'User',
-			'genre_id' => 'Genre',
-			'name' => 'Name',
+			'genre_id' => 'Zanr',
+			'name' => 'Nimi',
                         'rating' => 'Rating',
 			'description' => 'Lühikirjeldus',
 			'activeSince' => 'Active Since',
