@@ -8,11 +8,14 @@ class BandController extends Controller
 	 */
 	public $layout='//layouts/column2';
         
-        //kui esitähe järgi valida band siis koristame otsingu 
+        //kui esitähe järgi valida band siis koristame otsingu ja muud hackid
         public function createUrl($route,$params=array(),$ampersand='&')
 	{
             if (isset($params['alpha'])){
             unset($params['search']);
+            }  
+            if (isset($params['p_rst'])){
+             $route = 'band/index';   
             }
 		
 		return parent::createUrl($route, $params, $ampersand);
@@ -141,6 +144,7 @@ class BandController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+                $this->layout = '//layouts/column1'; 
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed

@@ -12,6 +12,9 @@
  * @property string $description
  * @property integer $activeSince
  * @property string $website
+ * @property string $fb_url
+ * @property string $mp_url
+ * @property string $yt_url
  * @property string $email
  *
  * The followings are the available model relations:
@@ -52,6 +55,7 @@ class Band extends CActiveRecord
 			array('user_id, genre_id, activeSince', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>100),
 			array('website, email', 'length', 'max'=>255),
+			array('website, fb_url, yt_url, mp_url', 'url'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, user_id, genre_id, name, description, activeSince, website, email', 'safe', 'on'=>'search'),
@@ -84,7 +88,10 @@ class Band extends CActiveRecord
                         'rating' => 'Rating',
 			'description' => 'Lühikirjeldus',
 			'activeSince' => 'Active Since',
-			'website' => 'Website',
+			'website' => 'Veebileht',
+			'fb_url' => 'Facebook\'i aadress',
+			'mp_url' => 'My Space\'i aadress',
+			'yt_url' => 'Youtube\'i aadress',
 			'email' => 'Email',
 			'pics' => 'Pildid',
 		);

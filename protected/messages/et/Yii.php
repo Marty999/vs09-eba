@@ -25,7 +25,7 @@ return array (
   '{attribute} cannot be blank.' => '{attribute} ei tohi tühi olla.',
   '{attribute} is in the list.' => '{attribute} ist nicht in Liste enthalten.',
   '{attribute} is invalid.' => '{attribute} ist ungültig.',
-  '{attribute} is not a valid URL.' => '{attribute} ist keine gültige URL.',
+  '{attribute} is not a valid URL.' => '{attribute} ei ole korralik URL aadress, peab olema kujul http://www.xxx.xx/',
   '{attribute} is not a valid email address.' => '{attribute} vigane!',
   '{attribute} is not in the list.' => '{attribute} ist nicht in der Liste.',
   '{attribute} is of the wrong length (should be {length} characters).' => '{attribute} hat die falsche Länge (Es sollten {length} Zeichen sein).',

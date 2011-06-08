@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/colorbox.css" />
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.rater.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.resize.js"></script>
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -40,6 +41,14 @@
             });
             
             $('.stat').rater({ postHref: 'http://jvance.com/TestRater.aspx' });
+        
+            $('#albums li').click(function() {
+                    $('.songs').hide('fast');
+                    $('#songs-'+$(this).index()).show('fast');                    
+                    console.log('#songs-'+$(this).index());
+                    $(this).addClass('selected').siblings().removeClass('selected');
+
+            });
 	});
 	
 	
@@ -58,8 +67,6 @@
                                         $this->widget('zii.widgets.CMenu',array(
                                         'items'=>array(
                                           array('label'=>'Avaleht', 'url'=>array('band/index')),
-                                          array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-                                          array('label'=>'Contact', 'url'=>array('/site/contact')),
                                           array('label'=>'Logi sisse', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                                           array('label'=>'Registreeri', 'url'=>array('/site/register'), 'visible'=>Yii::app()->user->isGuest),                                          
                                           array('label'=>'Logi välja ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
@@ -73,7 +80,7 @@
                                     $this->widget('usermenu');
                                 }
                                 ?>
-                            <?php if($this->getId() == 'band'): ?>
+
                             <div id="alpha-menu">
                                 <?php
                                     $data = Band::model()->listBands();
@@ -86,19 +93,19 @@
                                     ));
                                 ?>
 				</div>
-                            <?php endif; ?>
+ 
 			</div>
 		</div>
 		
 		<!-- BODY -->
 		<div id="body">
 			<div class="content">
-          <?php $this->renderPartial('//site/userflash'); ?>           
-          <?php echo $content; ?>
+                      <?php $this->renderPartial('//site/userflash'); ?>   
+                      <?php echo $content; ?>
 			</div>
 		</div>
 	</div>
 </div>
-<div id="footer"><p class="content">#Footer<p></div>	
+<div id="footer"><p class="content">EBA 2011<p></div>	
 </body>
 </html>

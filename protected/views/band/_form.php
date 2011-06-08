@@ -5,15 +5,9 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Väljad märgitud <span class="required">*</span> on kohustuslikud.</p>
 
 	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'genre_id'); ?>
-		<?php echo $form->textField($model,'genre_id'); ?>
-		<?php echo $form->error($model,'genre_id'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'name'); ?>
@@ -21,11 +15,17 @@
 		<?php echo $form->error($model,'name'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'description'); ?>
-		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'description'); ?>
-	</div>
+        <div class="row">
+            <?php echo CHtml::activeLabelEx($model, 'description') ?>
+            <?php echo $form->error($model,'description'); ?>
+            <?php
+            $this->widget('application.extensions.cleditor.ECLEditor', array(
+                'model'=>$model,
+                'attribute'=>'description',
+            ));
+            ?>
+                
+        </div> 
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'activeSince'); ?>
@@ -37,6 +37,24 @@
 		<?php echo $form->labelEx($model,'website'); ?>
 		<?php echo $form->textField($model,'website',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'website'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'fb_url'); ?>
+		<?php echo $form->textField($model,'fb_url',array('size'=>60)); ?>
+		<?php echo $form->error($model,'fb_url'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'yt_url'); ?>
+		<?php echo $form->textField($model,'yt_url',array('size'=>60)); ?>
+		<?php echo $form->error($model,'yt_url'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'mp_url'); ?>
+		<?php echo $form->textField($model,'mp_url',array('size'=>60)); ?>
+		<?php echo $form->error($model,'mp_url'); ?>
 	</div>
 
 	<div class="row">

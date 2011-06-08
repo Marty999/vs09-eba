@@ -3,11 +3,11 @@ html, body {height: 100%;}
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
-	padding-bottom: 26px;}  /* footeri kõrgus + border */
+	padding-bottom: 35px;}  /* footeri kõrgus + border */
 
 #footer {position: relative;
-	margin-top: -26px; /* negatiivne väärtus - footeri kõrgus + border */
-	height: 23px;
+	margin-top: -35px; /* negatiivne väärtus - footeri kõrgus + border */
+	height: 35px;
 	clear:both;} 
 
 /*Opera Fix*/

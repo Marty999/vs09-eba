@@ -87,28 +87,34 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 
 
 /*detail css*/
-#content {padding-left: 20px;}
-#t, #b {border: 1px solid #ccc; border-left: none;}
-#b{border-top:none;}
-#lt, #lb {width: 600px; float: left; border-right: 1px solid #fff; padding: 10px 10px 0 0;}
-#rt, #rb {width: 298px; float: right; background-color: #eee;}
-#rb P,#rb UL{padding-left:10px;}
-#lt{position:relative;padding-top:40px;}
-#rt P,#rb P{margin-top:10px;}
-#rt img {border: 2px solid #fff;}
-#rt UL{margin-left:10px;}
-#rt li {float: left;margin: 0 10px 10px 0;}
-#rt UL .selected{
-	-moz-box-shadow: 1px 1px 6px rgba(0,0,0,.5);
-	box-shadow: 1px 1px 8px rgba(0,0,0,.4);
-	-moz-transition:-moz-box-shadow 0.2s linear 0s;
-}
+
+a {text-decoration: none; color: #666;}
+a:hover { color: #390;}
+h2 {color: #8cc63f; font-size: 16px;}
+.genre{ padding-top: 3px;}
+.rating {right: 10px; top: 10px; position: absolute;}
+#content {padding: 10px 20px;}
+#l-cont {width: 600px; float: left; border-top: 1px solid #ccc; padding: 10px 10px 0 0;}
+#r-cont {width: 290px; float: right; border-top: 1px solid #ccc; padding: 10px; background-color: #eee;background-color: rgba(190, 190, 190, 0.2)}
+#r-cont LI{float:left;}
+#l-cont{position:relative;}
+#r-cont img {border: 2px solid #fff;margin:5px;}
 #content p, #content ul {padding-bottom: 10px;}
 #content td {padding-right: 20px;}
-.rating {position:absolute;top:10px;right:0px;}
-#editor_content{padding:10px 0px 20px 0}
-
+#editor_content{padding:0px 0px 20px 0}
 #band_name, #genre{float:left;padding-right:10px;}
+/* Albumid */
+.selected { background: none !important;}
+#albums {position: relative;float:left;}
+#songs_container{float:left;}
+#albums li {background: url('_gfx/bg-1.png'); border-top: 1px solid #fff; padding: 6px;width: 150px; cursor: pointer;}
+.songs{display:none;}
+.songs LI{padding:3px;}
+
+#albums_title,#songs_title {background-color: #eee;background-color: rgba(190, 190, 190, 0.2);background: url('_gfx/bg-2.png'); height: 8px;width: 150px; float: left; padding: 6px; border-right: 1px solid #666; color: #000;font-weight:bold;border:1px solid #E9E9E9;}
+#songs_title{width:422px;border-left:none;}
+
+
 
 .breadcrumbs{margin:0 0 15px 0;}
 
@@ -132,20 +138,9 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 .logout {margin-top: 5px;padding-top: 5px; border-top: 1px solid #666;}
 .drop {margin-left: 5px;}
 
-/* Albumid */
-.selecteed { background-color: #fff !important;}
-#albums {position: relative;}
-#albums li {background-color: lightgreen; border-top: 1px solid #fff; padding: 10px;width: 150px;}
-#songs {position: absolute; left: 170px; top: 0;}
-#songs li {background-color: #fff;}
-#lb dl {color: #fff; display: inline-block;}
-#lb dt{background-color: #000; width: 150px; float: left; padding: 10px;border-right: 1px solid #666;}
-#lb dd{background-color: #000; float:left; padding: 10px; width: auto;}
 
-
-
-#footer{background-color:#e7e2dc;font-size:13px;text-align:center;border-top:3px solid green; }
-#footer P{padding-top:4px;} /*Võib tekitada scrollbari kui venitab footeri kõrguse suuremaks*/
+#footer{background-color:#e7e2dc;font-size:13px;text-align:center;background: url('_gfx/footer_bg.png') repeat-x;}
+#footer P{padding-top:10px;color:#ccc;} /*Võib tekitada scrollbari kui venitab footeri kõrguse suuremaks*/
 
 /* RATER PLUGIN */
 .ui-rater>span {vertical-align:top;}

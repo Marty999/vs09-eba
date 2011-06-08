@@ -1,640 +1,1206 @@
-2011/06/02 10:12:28 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:12:32 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:16:31 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:16:35 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:34 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:39 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:48 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:52 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:52 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:57 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:18:57 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:19:02 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:19:42 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:19:46 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:19:55 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:00 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:01 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:05 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:07 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:11 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:12 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:16 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:18 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:22 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:23 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:27 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:29 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:33 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:35 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:39 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:41 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:45 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:47 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:51 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:53 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:58 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:20:59 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:03 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:06 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:10 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:11 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:15 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:17 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:21:22 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:31 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:34 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:35 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:38 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:39 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:42 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:43 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:46 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:47 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:25:50 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:22 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:25 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:26 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:29 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:30 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:33 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:34 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:26:37 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:38:49 [error] [upload files] Fail olemas8388608
-in E:\WEB\projects\eba\protected\controllers\BandController.php (250)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 10:38:54 [error] [upload files error] Fail olemas
-in E:\WEB\projects\eba\protected\controllers\BandController.php (266)
-in E:\WEB\projects\eba\index.php (13)
-2011/06/02 18:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+2011/06/08 10:24:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/admin".' in E:\WEB\yii_lib\web\CWebApplication.php:332
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:36:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:37:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:39:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
-Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
-#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
-#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/dro...')
-#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#4 D:\Web\projects\eba\index.php(13): CApplication->run()
-#5 {main} REQUEST_URI=/eba/index.php/band/images/drop.png
-2011/06/02 18:41:52 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (D:\Web\yii_lib\web\helpers\CHtml.php:66)
-Stack trace:
-#0 D:\Web\yii_lib\web\helpers\CHtml.php(109): renderAttributes()
-#1 D:\Web\yii_lib\web\helpers\CHtml.php(387): tag()
-#2 D:\Web\projects\eba\protected\components\views\userMenu.php(2): image()
-#3 D:\Web\yii_lib\web\CBaseController.php(123): require()
-#4 D:\Web\yii_lib\web\CBaseController.php(88): UserMenu->renderInternal()
-#5 D:\Web\yii_lib\web\widgets\CWidget.php(240): UserMenu->renderFile()
-#6 D:\Web\projects\eba\protected\components\UserMenu.php(15): UserMenu->render()
-#7 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
-#8 D:\Web\yii_lib\web\CBaseController.php(166): UserMenu->run()
-#9 D:\Web\projects\eba\protected\views\band\view.php(8): BandController->widget()
-#10 D:\Web\yii_lib\web\CBaseController.php(119): require()
-#11 D:\Web\yii_lib\web\CBaseController.php(88): BandController->renderInternal()
-#12 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
-#13 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
-#14 D:\Web\projects\eba\protected\controllers\BandController.php(110): BandController->render()
-#15 unknown(0): BandController->actionView()
-#16 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
-#17 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
-#18 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#19 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
-#20 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
-#21 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
-#22 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
-#23 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
-#24 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
-#25 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
-#26 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
-#27 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#28 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#29 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/band/1
-in D:\Web\projects\eba\protected\components\views\userMenu.php (2)
-in D:\Web\projects\eba\protected\components\UserMenu.php (15)
-in D:\Web\projects\eba\protected\views\band\view.php (8)
-2011/06/02 18:44:33 [error] [php] Object of class Band could not be converted to string (D:\Web\projects\eba\protected\components\views\userMenu.php:2)
-Stack trace:
-#0 D:\Web\yii_lib\web\widgets\CWidget.php(240): UserMenu->renderFile()
-#1 D:\Web\projects\eba\protected\components\UserMenu.php(15): UserMenu->render()
-#2 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
-#3 D:\Web\yii_lib\web\CBaseController.php(166): UserMenu->run()
-#4 D:\Web\projects\eba\protected\views\band\view.php(8): BandController->widget()
-#5 D:\Web\yii_lib\web\CBaseController.php(119): require()
-#6 D:\Web\yii_lib\web\CBaseController.php(88): BandController->renderInternal()
-#7 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
-#8 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
-#9 D:\Web\projects\eba\protected\controllers\BandController.php(110): BandController->render()
-#10 unknown(0): BandController->actionView()
-#11 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
-#12 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
-#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
-#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
-#16 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
-#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
-#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
-#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
-#20 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
-#21 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
-#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#24 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/band/1
-in D:\Web\projects\eba\protected\components\views\userMenu.php (2)
-in D:\Web\projects\eba\protected\components\UserMenu.php (15)
-in D:\Web\projects\eba\protected\views\band\view.php (8)
-2011/06/02 18:45:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/admin".' in D:\Web\yii_lib\web\CWebApplication.php:332
-Stack trace:
-#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('post/admin')
-#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#0 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('post/admin')
+#1 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WEB\projects\eba\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/eba/index.php/post/admin
-2011/06/02 20:01:13 [error] [exception.CException] exception 'CException' with message 'SiteController does not have a method named "renderParial".' in D:\Web\yii_lib\base\CComponent.php:266
+2011/06/08 11:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\projects\eba\protected\views\site\register.php(45): CComponent->__call('renderParial', Array)
-#1 D:\Web\projects\eba\protected\views\site\register.php(45): SiteController->renderParial('genre/_genresel...')
-#2 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
-#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
-#4 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
-#5 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('register', Array, true)
-#6 D:\Web\projects\eba\protected\controllers\SiteController.php(98): CController->render('register', Array)
-#7 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#8 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#9 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#10 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#11 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#12 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#13 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#14 D:\Web\projects\eba\index.php(13): CApplication->run()
-#15 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:04:24 [error] [php] include(genreselect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\Web\yii_lib\YiiBase.php:396)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 11:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CWidgetFactory.php(147): import()
-#1 D:\Web\yii_lib\web\CBaseController.php(139): CWidgetFactory->createWidget()
-#2 D:\Web\yii_lib\web\CBaseController.php(165): SiteController->createWidget()
-#3 D:\Web\projects\eba\protected\views\site\register.php(45): SiteController->widget()
-#4 D:\Web\yii_lib\web\CBaseController.php(119): require()
-#5 D:\Web\yii_lib\web\CBaseController.php(88): SiteController->renderInternal()
-#6 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#7 D:\Web\yii_lib\web\CController.php(779): SiteController->renderPartial()
-#8 D:\Web\projects\eba\protected\controllers\SiteController.php(98): SiteController->render()
-#9 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#10 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#11 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#12 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#13 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#14 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#15 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#16 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\views\site\register.php (45)
-in D:\Web\projects\eba\protected\controllers\SiteController.php (98)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 20:05:36 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//genre/genreselect".' in D:\Web\yii_lib\web\CController.php:875
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 11:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\projects\eba\protected\views\site\register.php(45): CController->renderPartial('//genre/genrese...')
-#1 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
-#2 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
-#3 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
-#4 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('register', Array, true)
-#5 D:\Web\projects\eba\protected\controllers\SiteController.php(98): CController->render('register', Array)
-#6 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#7 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#8 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#9 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#10 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#11 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#12 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#13 D:\Web\projects\eba\index.php(13): CApplication->run()
-#14 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:21:55 [error] [php] Trying to get property of non-object (D:\Web\projects\eba\protected\controllers\SiteController.php:82)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 11:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#1 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#2 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#3 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#4 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#5 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\controllers\SiteController.php (82)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 20:22:30 [error] [php] Trying to get property of non-object (D:\Web\projects\eba\protected\controllers\SiteController.php:82)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 11:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_gfx".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#1 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#2 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#3 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#4 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#5 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\controllers\SiteController.php (82)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 20:26:50 [error] [php] Undefined variable: genre (D:\Web\projects\eba\protected\views\genre\_genreselect.php:21)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('_gfx')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('_gfx')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/_gfx/favic...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/_gfx/favicon-yt.png
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#1 D:\Web\projects\eba\protected\views\site\register.php(48): SiteController->renderPartial()
-#2 D:\Web\yii_lib\web\CBaseController.php(119): require()
-#3 D:\Web\yii_lib\web\CBaseController.php(88): SiteController->renderInternal()
-#4 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#5 D:\Web\yii_lib\web\CController.php(779): SiteController->renderPartial()
-#6 D:\Web\projects\eba\protected\controllers\SiteController.php(105): SiteController->render()
-#7 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#8 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#9 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#10 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#11 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#12 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#13 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#14 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\views\genre\_genreselect.php (21)
-in D:\Web\projects\eba\protected\views\site\register.php (48)
-in D:\Web\projects\eba\protected\controllers\SiteController.php (105)
-2011/06/02 20:46:15 [error] [exception.CException] exception 'CException' with message 'Property "User.description" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('description')
-#1 D:\Web\yii_lib\web\helpers\CHtml.php(2050): CActiveRecord->__get('description')
-#2 D:\Web\yii_lib\web\helpers\CHtml.php(1239): CHtml::resolveValue(Object(User), 'description')
-#3 D:\Web\projects\eba\protected\extensions\cleditor\ECLEditor.php(57): CHtml::activeTextArea(Object(User), 'description', Array)
-#4 D:\Web\yii_lib\web\CBaseController.php(166): ECLEditor->run()
-#5 D:\Web\projects\eba\protected\views\site\register.php(55): CBaseController->widget('application.ext...', Array)
-#6 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
-#7 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
-#8 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
-#9 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('register', Array, true)
-#10 D:\Web\projects\eba\protected\controllers\SiteController.php(106): CController->render('register', Array)
-#11 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#12 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#13 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#14 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#15 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#16 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#17 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#18 D:\Web\projects\eba\index.php(13): CApplication->run()
-#19 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:47:18 [error] [exception.CException] exception 'CException' with message 'Property "User.bandname" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('bandname')
-#1 D:\Web\yii_lib\validators\CRequiredValidator.php(46): CActiveRecord->__get('bandname')
-#2 D:\Web\yii_lib\validators\CValidator.php(192): CRequiredValidator->validateAttribute(Object(User), 'bandname')
-#3 D:\Web\yii_lib\base\CModel.php(152): CValidator->validate(Object(User), NULL)
-#4 D:\Web\projects\eba\protected\controllers\SiteController.php(98): CModel->validate()
-#5 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#7 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#8 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#9 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#10 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#11 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#12 D:\Web\projects\eba\index.php(13): CApplication->run()
-#13 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:50:03 [error] [exception.CException] exception 'CException' with message 'Property "User.bandname" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_gfx".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('bandname')
-#1 D:\Web\yii_lib\validators\CRequiredValidator.php(46): CActiveRecord->__get('bandname')
-#2 D:\Web\yii_lib\validators\CValidator.php(192): CRequiredValidator->validateAttribute(Object(User), 'bandname')
-#3 D:\Web\yii_lib\base\CModel.php(152): CValidator->validate(Object(User), NULL)
-#4 D:\Web\projects\eba\protected\controllers\SiteController.php(99): CModel->validate()
-#5 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#7 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#8 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#9 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#10 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#11 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#12 D:\Web\projects\eba\index.php(13): CApplication->run()
-#13 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:56:05 [error] [exception.CException] exception 'CException' with message 'Property "User.bandname" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('_gfx')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('_gfx')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/_gfx/favic...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/_gfx/favicon-yt.png
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('bandname')
-#1 D:\Web\yii_lib\validators\CRequiredValidator.php(46): CActiveRecord->__get('bandname')
-#2 D:\Web\yii_lib\validators\CValidator.php(192): CRequiredValidator->validateAttribute(Object(User), 'bandname')
-#3 D:\Web\yii_lib\base\CModel.php(152): CValidator->validate(Object(User), NULL)
-#4 D:\Web\projects\eba\protected\controllers\SiteController.php(99): CModel->validate()
-#5 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#7 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#8 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#9 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#10 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#11 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#12 D:\Web\projects\eba\index.php(13): CApplication->run()
-#13 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 20:56:34 [error] [exception.CException] exception 'CException' with message 'Property "User.description" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 11:56:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('description')
-#1 D:\Web\yii_lib\validators\CRequiredValidator.php(46): CActiveRecord->__get('description')
-#2 D:\Web\yii_lib\validators\CValidator.php(192): CRequiredValidator->validateAttribute(Object(User), 'description')
-#3 D:\Web\yii_lib\base\CModel.php(152): CValidator->validate(Object(User), NULL)
-#4 D:\Web\projects\eba\protected\controllers\SiteController.php(99): CModel->validate()
-#5 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
-#7 D:\Web\yii_lib\web\CController.php(278): CController->runAction(Object(CInlineAction))
-#8 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
-#9 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('register')
-#10 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('site/register')
-#11 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#12 D:\Web\projects\eba\index.php(13): CApplication->run()
-#13 {main} REQUEST_URI=/eba/index.php/site/register
-2011/06/02 21:24:58 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:24:59 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:00 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:01 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:02 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:03 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:04 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:05 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:58 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:25:58 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:00 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:01 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:02 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:03 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:04 [error] [upload files] Fail olemas10485760
-in D:\Web\projects\eba\protected\controllers\BandController.php (250)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:26:05 [error] [upload files error] Fail olemas
-in D:\Web\projects\eba\protected\controllers\BandController.php (266)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:42:50 [error] [php] Undefined variable: genre (D:\Web\projects\eba\protected\views\site\register.php:48)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 11:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#1 D:\Web\yii_lib\web\CController.php(779): SiteController->renderPartial()
-#2 D:\Web\projects\eba\protected\controllers\SiteController.php(119): SiteController->render()
-#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#5 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#6 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#7 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#8 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#9 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#10 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\views\site\register.php (48)
-in D:\Web\projects\eba\protected\controllers\SiteController.php (119)
-in D:\Web\projects\eba\index.php (13)
-2011/06/02 21:43:16 [error] [php] Undefined variable: form (D:\Web\projects\eba\protected\views\genre\_genreselect.php:21)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 11:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#1 D:\Web\projects\eba\protected\views\site\register.php(48): SiteController->renderPartial()
-#2 D:\Web\yii_lib\web\CBaseController.php(119): require()
-#3 D:\Web\yii_lib\web\CBaseController.php(88): SiteController->renderInternal()
-#4 D:\Web\yii_lib\web\CController.php(866): SiteController->renderFile()
-#5 D:\Web\yii_lib\web\CController.php(779): SiteController->renderPartial()
-#6 D:\Web\projects\eba\protected\controllers\SiteController.php(119): SiteController->render()
-#7 D:\Web\yii_lib\web\actions\CInlineAction.php(50): SiteController->actionRegister()
-#8 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#9 D:\Web\yii_lib\web\CController.php(278): SiteController->runAction()
-#10 D:\Web\yii_lib\web\CController.php(257): SiteController->runActionWithFilters()
-#11 D:\Web\yii_lib\web\CWebApplication.php(328): SiteController->run()
-#12 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#13 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#14 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/site/register
-in D:\Web\projects\eba\protected\views\genre\_genreselect.php (21)
-in D:\Web\projects\eba\protected\views\site\register.php (48)
-in D:\Web\projects\eba\protected\controllers\SiteController.php (119)
-2011/06/02 22:54:23 [error] [php] Trying to get property of non-object (D:\Web\projects\eba\protected\views\band\index.php:13)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 11:57:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
 Stack trace:
-#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
-#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
-#2 D:\Web\projects\eba\protected\controllers\BandController.php(192): BandController->render()
-#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
-#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
-#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
-#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
-#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
-#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
-#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
-#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
-#11 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
-#12 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
-#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
-#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
-#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
-REQUEST_URI=/eba/index.php/band/index?page=4
-in D:\Web\projects\eba\protected\views\band\index.php (13)
-in D:\Web\projects\eba\protected\controllers\BandController.php (192)
-in D:\Web\projects\eba\index.php (13)
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 11:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 11:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_gfx".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('_gfx')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('_gfx')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/_gfx/favic...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/_gfx/favicon-yt.png
+2011/06/08 11:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 11:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 11:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 11:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_gfx".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('_gfx')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('_gfx')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/_gfx/favic...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/_gfx/favicon-yt.png
+2011/06/08 11:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 11:58:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_gfx".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('_gfx')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('_gfx')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/_gfx/favic...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/_gfx/favicon-yt.png
+2011/06/08 12:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:03:22 [error] [php] Object of class Genre could not be converted to string (E:\WEB\projects\eba\protected\views\band\view.php:23)
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 E:\WEB\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 E:\WEB\projects\eba\protected\controllers\BandController.php(113): BandController->render()
+#3 unknown(0): BandController->actionView()
+#4 E:\WEB\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
+#5 E:\WEB\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 E:\WEB\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#7 E:\WEB\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#8 E:\WEB\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#9 E:\WEB\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#10 E:\WEB\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#11 E:\WEB\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 E:\WEB\yii_lib\web\CController.php(283): CFilterChain->run()
+#13 E:\WEB\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#14 E:\WEB\yii_lib\web\CWebApplication.php(328): BandController->run()
+#15 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#16 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#17 E:\WEB\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/band/2
+in E:\WEB\projects\eba\protected\views\band\view.php (23)
+in E:\WEB\projects\eba\protected\controllers\BandController.php (113)
+in E:\WEB\projects\eba\index.php (13)
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/ban...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/band_dummy.jpg
+2011/06/08 12:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:07:07 [error] [exception.CException] exception 'CException' with message 'Property "Band.webpage" is not defined.' in E:\WEB\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 E:\WEB\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('webpage')
+#1 E:\WEB\projects\eba\protected\views\band\view.php(51): CActiveRecord->__get('webpage')
+#2 E:\WEB\yii_lib\web\CBaseController.php(119): require('E:\WEB\projects...')
+#3 E:\WEB\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('E:\WEB\projects...', Array, true)
+#4 E:\WEB\yii_lib\web\CController.php(866): CBaseController->renderFile('E:\WEB\projects...', Array, true)
+#5 E:\WEB\yii_lib\web\CController.php(779): CController->renderPartial('view', Array, true)
+#6 E:\WEB\projects\eba\protected\controllers\BandController.php(113): CController->render('view', Array)
+#7 [internal function]: BandController->actionView('1')
+#8 E:\WEB\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(BandController), Array)
+#9 E:\WEB\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(BandController), Object(ReflectionMethod), Array)
+#10 E:\WEB\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 E:\WEB\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 E:\WEB\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#13 E:\WEB\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#14 E:\WEB\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 E:\WEB\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\WEB\yii_lib\web\CController.php(283): CFilterChain->run()
+#17 E:\WEB\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('view')
+#19 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/view')
+#20 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#21 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/eba/index.php/band/1
+2011/06/08 12:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:07:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:08:01 [error] [exception.CException] exception 'CException' with message 'Property "Band.activeScince" is not defined.' in E:\WEB\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 E:\WEB\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('activeScince')
+#1 E:\WEB\projects\eba\protected\views\band\view.php(36): CActiveRecord->__get('activeScince')
+#2 E:\WEB\yii_lib\web\CBaseController.php(119): require('E:\WEB\projects...')
+#3 E:\WEB\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('E:\WEB\projects...', Array, true)
+#4 E:\WEB\yii_lib\web\CController.php(866): CBaseController->renderFile('E:\WEB\projects...', Array, true)
+#5 E:\WEB\yii_lib\web\CController.php(779): CController->renderPartial('view', Array, true)
+#6 E:\WEB\projects\eba\protected\controllers\BandController.php(113): CController->render('view', Array)
+#7 [internal function]: BandController->actionView('1')
+#8 E:\WEB\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(BandController), Array)
+#9 E:\WEB\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(BandController), Object(ReflectionMethod), Array)
+#10 E:\WEB\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 E:\WEB\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 E:\WEB\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#13 E:\WEB\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#14 E:\WEB\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 E:\WEB\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\WEB\yii_lib\web\CController.php(283): CFilterChain->run()
+#17 E:\WEB\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('view')
+#19 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/view')
+#20 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#21 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/eba/index.php/band/1
+2011/06/08 12:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:23:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:26:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/mys...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/myspace.png
+2011/06/08 12:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/you...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/youtube.png
+2011/06/08 12:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/images/fac...')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/images/facebook.png
+2011/06/08 12:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/admin".' in E:\WEB\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('post/admin')
+#1 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/index.php/post/admin
