@@ -3,11 +3,17 @@
 -- http://www.phpmyadmin.net
 --
 -- Masin: localhost
--- Tegemisaeg: 01.06.2011 kell 15:07:36
+-- Tegemisaeg: 08.06.2011 kell 15:12:45
 -- Serveri versioon: 5.1.53
 -- PHP versioon: 5.3.4
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Andmebaas: `eba`
@@ -29,6 +35,9 @@ CREATE TABLE IF NOT EXISTS `tbl_band` (
   `activeSince` int(4) NOT NULL,
   `email` varchar(255) NOT NULL,
   `website` varchar(255) NOT NULL,
+  `fb_url` text NOT NULL,
+  `mp_url` text NOT NULL,
+  `yt_url` text NOT NULL,
   `pics` longtext NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
@@ -39,14 +48,14 @@ CREATE TABLE IF NOT EXISTS `tbl_band` (
 -- Tabeli andmete salvestamine `tbl_band`
 --
 
-INSERT INTO `tbl_band` (`id`, `user_id`, `genre_id`, `name`, `rating`, `description`, `activeSince`, `email`, `website`, `pics`) VALUES
-(1, 1, 1, 'Smilers', '6.72', 'See on smilers', 1999, 'sml@esd', 'www.termikas.ee', '["\\/eba\\/uploads\\/band\\/4de635caa8282.JPG","\\/eba\\/uploads\\/band\\/4de635cce92f9.PNG","\\/eba\\/uploads\\/band\\/4de635ce44d51.JPG","\\/eba\\/uploads\\/band\\/4de65597aa5cd.jpg"]'),
-(2, 1, 1, 'Test', '6.00', 'See on test', 0, '', '', ''),
-(3, 1, 1, 'Test', '0.00', 'See on test', 1999, '', '', ''),
-(4, 1, 1, '11naaaasdasd', '0.00', 'asdasd', 1233, '', '', ''),
-(5, 35, 1, 'tere', '0.00', '', 1999, '', '', ''),
-(6, 36, 1, 'Superband', '0.00', '<h3>Tere see on minu band <b>asdasd</b></h3>', 1999, '', '', ''),
-(7, 37, 1, 'martin', '0.00', 'asdasdfasdf <br>', 1999, '', '', '');
+INSERT INTO `tbl_band` (`id`, `user_id`, `genre_id`, `name`, `rating`, `description`, `activeSince`, `email`, `website`, `fb_url`, `mp_url`, `yt_url`, `pics`) VALUES
+(1, 1, 1, 'Smilers', '6.72', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt \r\nlaoreet tortor malesuada vulputate. Nunc a tellus at nibh adipiscing \r\ndapibus eget eget sapien. Sed in nibh nulla. In eget nunc ut sem aliquet\r\n vulputate. Cras vitae felis arcu, id ornare augue. Vestibulum iaculis \r\ndictum euismod. Quisque mauris diam, luctus vehicula tristique ut, \r\nmalesuada sed sem. Quisque at leo eu mauris lacinia molestie sit amet in\r\n velit. Suspendisse potenti. Nulla non feugiat metus.\r\n', 1999, 'sml@esddd', 'http://www.termikas.ee', 'http://facebook.com', 'http://www.rate.ee', 'http://www.neti.ee', '[{"main":"uploads\\/band\\/1\\/4de7654e2cc23.jpg","tn":"uploads\\/band\\/1\\/tn\\/4de7654e2cc23.jpg"},{"main":"uploads\\/band\\/1\\/4de765522ccad.jpg","tn":"uploads\\/band\\/1\\/tn\\/4de765522ccad.jpg"},{"main":"uploads\\/band\\/1\\/4de765562479c.jpg","tn":"uploads\\/band\\/1\\/tn\\/4de765562479c.jpg"},{"main":"uploads\\/band\\/1\\/4de7655a26741.jpg","tn":"uploads\\/band\\/1\\/tn\\/4de7655a26741.jpg"},{"main":"uploads\\/band\\/1\\/4de76839cc542.jpg","tn":"uploads\\/band\\/1\\/tn\\/4de76839cc542.jpg"},{"main":"uploads\\/band\\/1\\/4def3a6a59d49.jpg","tn":"uploads\\/band\\/1\\/tn\\/4def3a6a59d49.jpg"},{"main":"uploads\\/band\\/1\\/4def3a713d7d1.jpg","tn":"uploads\\/band\\/1\\/tn\\/4def3a713d7d1.jpg"},{"main":"uploads\\/band\\/1\\/4def3a783ef36.jpg","tn":"uploads\\/band\\/1\\/tn\\/4def3a783ef36.jpg"},{"main":"uploads\\/band\\/1\\/4def3a7f3f639.jpg","tn":"uploads\\/band\\/1\\/tn\\/4def3a7f3f639.jpg"}]'),
+(2, 1, 1, 'Test', '6.00', 'See on test', 0, '', '', '', '', '0', ''),
+(3, 1, 1, 'Test', '0.00', 'See on test', 1999, '', '', '', '', '0', ''),
+(4, 1, 1, '11naaaasdasd', '0.00', 'asdasd', 1233, '', '', '', '', '0', ''),
+(5, 35, 1, 'tere', '0.00', '', 1999, '', '', '', '', '0', ''),
+(6, 36, 1, 'Superband', '0.00', '<h3>Tere see on minu band <b>asdasd</b></h3>', 1999, '', '', '', '', '0', ''),
+(7, 37, 1, 'martin', '0.00', 'asdasdfasdf <br>', 1999, '', '', '', '', '0', '');
 
 -- --------------------------------------------------------
 
