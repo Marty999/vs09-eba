@@ -1204,3 +1204,1675 @@ Stack trace:
 #1 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
 #2 E:\WEB\projects\eba\index.php(13): CApplication->run()
 #3 {main} REQUEST_URI=/eba/index.php/post/admin
+2011/06/08 15:10:57 [error] [exception.CException] exception 'CException' with message 'Property "Band.fb_url" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('fb_url')
+#1 D:\Web\projects\eba\protected\views\band\view.php(61): CActiveRecord->__get('fb_url')
+#2 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#4 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#5 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('view', Array, true)
+#6 D:\Web\projects\eba\protected\controllers\BandController.php(113): CController->render('view', Array)
+#7 [internal function]: BandController->actionView('1')
+#8 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(BandController), Array)
+#9 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(BandController), Object(ReflectionMethod), Array)
+#10 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#14 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#17 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('view')
+#19 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/view')
+#20 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#21 D:\Web\projects\eba\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/eba/index.php/band/1
+2011/06/08 15:17:28 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:29 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:30 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:31 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:32 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:32 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:34 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:34 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:36 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:36 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:38 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 15:17:38 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:18:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'.
+in D:\Web\projects\eba\protected\views\band\index.php (13)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:18:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'' in D:\Web\yii_lib\db\CDbCommand.php:518
+Stack trace:
+#0 D:\Web\yii_lib\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(817): CDbCommand->queryAll()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(526): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Web\yii_lib\db\ar\CActiveFinder.php(166): CJoinElement->lazyFind(Object(Band))
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(258): CActiveFinder->lazyFind(Object(Band))
+#5 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): CActiveRecord->getRelated('genre')
+#6 D:\Web\projects\eba\protected\views\band\index.php(13): CActiveRecord->__get('genre')
+#7 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#8 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#10 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#11 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#12 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#20 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#24 D:\Web\projects\eba\index.php(13): CApplication->run()
+#25 {main} REQUEST_URI=/eba/index.php/
+2011/06/08 16:19:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'.
+in D:\Web\projects\eba\protected\views\band\index.php (13)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:19:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'' in D:\Web\yii_lib\db\CDbCommand.php:518
+Stack trace:
+#0 D:\Web\yii_lib\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(817): CDbCommand->queryAll()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(526): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Web\yii_lib\db\ar\CActiveFinder.php(166): CJoinElement->lazyFind(Object(Band))
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(258): CActiveFinder->lazyFind(Object(Band))
+#5 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): CActiveRecord->getRelated('genre')
+#6 D:\Web\projects\eba\protected\views\band\index.php(13): CActiveRecord->__get('genre')
+#7 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#8 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#10 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#11 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#12 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#20 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#24 D:\Web\projects\eba\index.php(13): CApplication->run()
+#25 {main} REQUEST_URI=/eba/index.php/
+2011/06/08 16:20:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'.
+in D:\Web\projects\eba\protected\views\band\index.php (13)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:20:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'' in D:\Web\yii_lib\db\CDbCommand.php:518
+Stack trace:
+#0 D:\Web\yii_lib\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(817): CDbCommand->queryAll()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(526): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Web\yii_lib\db\ar\CActiveFinder.php(166): CJoinElement->lazyFind(Object(Band))
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(258): CActiveFinder->lazyFind(Object(Band))
+#5 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): CActiveRecord->getRelated('genre')
+#6 D:\Web\projects\eba\protected\views\band\index.php(13): CActiveRecord->__get('genre')
+#7 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#8 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#10 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#11 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#12 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#20 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#24 D:\Web\projects\eba\index.php(13): CApplication->run()
+#25 {main} REQUEST_URI=/eba/index.php/
+2011/06/08 16:21:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'.
+in D:\Web\projects\eba\protected\views\band\index.php (13)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:21:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'' in D:\Web\yii_lib\db\CDbCommand.php:518
+Stack trace:
+#0 D:\Web\yii_lib\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(817): CDbCommand->queryAll()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(526): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Web\yii_lib\db\ar\CActiveFinder.php(166): CJoinElement->lazyFind(Object(Band))
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(258): CActiveFinder->lazyFind(Object(Band))
+#5 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): CActiveRecord->getRelated('genre')
+#6 D:\Web\projects\eba\protected\views\band\index.php(13): CActiveRecord->__get('genre')
+#7 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#8 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#10 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#11 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#12 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#20 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#24 D:\Web\projects\eba\index.php(13): CApplication->run()
+#25 {main} REQUEST_URI=/eba/index.php/
+2011/06/08 16:23:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'.
+in D:\Web\projects\eba\protected\views\band\index.php (13)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:23:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre.genre_id' in 'where clause'. The SQL statement executed was: SELECT `genre`.`id` AS `t1_c0`, `genre`.`name` AS `t1_c1`, `genre`.`description` AS `t1_c2` FROM `tbl_genre` `genre`  WHERE (`genre`.`genre_id`=:ypl0). Bound with :ypl0='1'' in D:\Web\yii_lib\db\CDbCommand.php:518
+Stack trace:
+#0 D:\Web\yii_lib\db\CDbCommand.php(376): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(817): CDbCommand->queryAll()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(526): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Web\yii_lib\db\ar\CActiveFinder.php(166): CJoinElement->lazyFind(Object(Band))
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(258): CActiveFinder->lazyFind(Object(Band))
+#5 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): CActiveRecord->getRelated('genre')
+#6 D:\Web\projects\eba\protected\views\band\index.php(13): CActiveRecord->__get('genre')
+#7 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#8 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#10 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#11 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#12 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#13 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#14 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#20 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#22 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#23 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#24 D:\Web\projects\eba\index.php(13): CApplication->run()
+#25 {main} REQUEST_URI=/eba/index.php/
+2011/06/08 16:27:06 [error] [php] Undefined variable: band (D:\Web\projects\eba\protected\views\band\view.php:133)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\BandController.php(113): BandController->render()
+#3 unknown(0): BandController->actionView()
+#4 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
+#5 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#7 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#8 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#10 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#14 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#15 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#16 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#17 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/band/1
+in D:\Web\projects\eba\protected\views\band\view.php (133)
+in D:\Web\projects\eba\protected\controllers\BandController.php (113)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:33:48 [error] [php] include(Songs.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\Web\yii_lib\YiiBase.php:396)
+Stack trace:
+#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(370): spl_autoload_call()
+#1 D:\Web\yii_lib\db\ar\CActiveFinder.php(218): model()
+#2 D:\Web\yii_lib\db\ar\CActiveFinder.php(51): CActiveFinder->buildJoinTree()
+#3 D:\Web\yii_lib\db\ar\CActiveRecord.php(257): CActiveFinder->__construct()
+#4 D:\Web\yii_lib\db\ar\CActiveRecord.php(126): Albums->getRelated()
+#5 D:\Web\projects\eba\protected\views\band\view.php(74): Albums->__get()
+#6 D:\Web\yii_lib\web\CBaseController.php(119): require()
+#7 D:\Web\yii_lib\web\CBaseController.php(88): BandController->renderInternal()
+#8 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#9 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#10 D:\Web\projects\eba\protected\controllers\BandController.php(113): BandController->render()
+#11 unknown(0): BandController->actionView()
+#12 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
+#13 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#14 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#15 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#16 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#17 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#18 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#19 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#20 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#21 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#22 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#23 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#24 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#25 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/band/1
+in D:\Web\projects\eba\protected\views\band\view.php (74)
+in D:\Web\projects\eba\protected\controllers\BandController.php (113)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 16:34:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eba.tbl_so' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_so`.
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 17:36:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums
+2011/06/08 17:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums/ind...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums/index
+2011/06/08 17:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('manage')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('manage')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/manage')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/manage
+2011/06/08 17:40:17 [error] [exception.CException] exception 'CException' with message 'Property "EbaWebUser.band" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CWebUser.php(124): CComponent->__get('band')
+#1 D:\Web\projects\eba\protected\components\views\userMenu.php(2): CWebUser->__get('band')
+#2 D:\Web\yii_lib\web\CBaseController.php(123): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', NULL, false)
+#4 D:\Web\yii_lib\web\widgets\CWidget.php(240): CBaseController->renderFile('D:\Web\projects...', NULL, false)
+#5 D:\Web\projects\eba\protected\components\UserMenu.php(15): CWidget->render('userMenu')
+#6 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
+#7 D:\Web\yii_lib\web\CBaseController.php(166): CPortlet->run()
+#8 D:\Web\projects\eba\protected\views\layouts\main.php(80): CBaseController->widget('usermenu')
+#9 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#10 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#11 D:\Web\yii_lib\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#12 D:\Web\yii_lib\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="body">...')
+#13 D:\Web\yii_lib\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="body">...')
+#14 D:\Web\yii_lib\web\CBaseController.php(199): COutputProcessor->run()
+#15 D:\Web\yii_lib\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#16 D:\Web\projects\eba\protected\views\layouts\column2.php(31): CBaseController->endContent()
+#17 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#18 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#19 D:\Web\yii_lib\web\CController.php(781): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#20 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#21 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#22 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#23 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#25 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#26 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#27 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#29 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#31 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#32 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#33 D:\Web\projects\eba\index.php(13): CApplication->run()
+#34 {main} REQUEST_URI=/eba/index.php
+2011/06/08 17:40:58 [error] [exception.CException] exception 'CException' with message 'Property "EbaWebUser.band" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CWebUser.php(124): CComponent->__get('band')
+#1 D:\Web\projects\eba\protected\components\views\userMenu.php(2): CWebUser->__get('band')
+#2 D:\Web\yii_lib\web\CBaseController.php(123): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', NULL, false)
+#4 D:\Web\yii_lib\web\widgets\CWidget.php(240): CBaseController->renderFile('D:\Web\projects...', NULL, false)
+#5 D:\Web\projects\eba\protected\components\UserMenu.php(15): CWidget->render('userMenu')
+#6 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
+#7 D:\Web\yii_lib\web\CBaseController.php(166): CPortlet->run()
+#8 D:\Web\projects\eba\protected\views\layouts\main.php(80): CBaseController->widget('usermenu')
+#9 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#10 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#11 D:\Web\yii_lib\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#12 D:\Web\yii_lib\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="body">...')
+#13 D:\Web\yii_lib\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="body">...')
+#14 D:\Web\yii_lib\web\CBaseController.php(199): COutputProcessor->run()
+#15 D:\Web\yii_lib\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#16 D:\Web\projects\eba\protected\views\layouts\column2.php(31): CBaseController->endContent()
+#17 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#18 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#19 D:\Web\yii_lib\web\CController.php(781): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#20 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#21 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#22 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#23 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#25 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#26 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#27 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#29 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#31 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#32 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#33 D:\Web\projects\eba\index.php(13): CApplication->run()
+#34 {main} REQUEST_URI=/eba/index.php
+2011/06/08 17:41:10 [error] [exception.CException] exception 'CException' with message 'Property "EbaWebUser.band" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CWebUser.php(124): CComponent->__get('band')
+#1 D:\Web\projects\eba\protected\components\views\userMenu.php(2): CWebUser->__get('band')
+#2 D:\Web\yii_lib\web\CBaseController.php(123): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', NULL, false)
+#4 D:\Web\yii_lib\web\widgets\CWidget.php(240): CBaseController->renderFile('D:\Web\projects...', NULL, false)
+#5 D:\Web\projects\eba\protected\components\UserMenu.php(15): CWidget->render('userMenu')
+#6 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
+#7 D:\Web\yii_lib\web\CBaseController.php(166): CPortlet->run()
+#8 D:\Web\projects\eba\protected\views\layouts\main.php(80): CBaseController->widget('usermenu')
+#9 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#10 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#11 D:\Web\yii_lib\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#12 D:\Web\yii_lib\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="body">...')
+#13 D:\Web\yii_lib\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="body">...')
+#14 D:\Web\yii_lib\web\CBaseController.php(199): COutputProcessor->run()
+#15 D:\Web\yii_lib\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#16 D:\Web\projects\eba\protected\views\layouts\column2.php(31): CBaseController->endContent()
+#17 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#18 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#19 D:\Web\yii_lib\web\CController.php(781): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#20 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#21 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#22 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#23 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#25 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#26 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#27 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#29 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#31 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#32 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#33 D:\Web\projects\eba\index.php(13): CApplication->run()
+#34 {main} REQUEST_URI=/eba/
+2011/06/08 17:41:15 [error] [exception.CException] exception 'CException' with message 'Property "EbaWebUser.band" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CWebUser.php(124): CComponent->__get('band')
+#1 D:\Web\projects\eba\protected\components\views\userMenu.php(2): CWebUser->__get('band')
+#2 D:\Web\yii_lib\web\CBaseController.php(123): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', NULL, false)
+#4 D:\Web\yii_lib\web\widgets\CWidget.php(240): CBaseController->renderFile('D:\Web\projects...', NULL, false)
+#5 D:\Web\projects\eba\protected\components\UserMenu.php(15): CWidget->render('userMenu')
+#6 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
+#7 D:\Web\yii_lib\web\CBaseController.php(166): CPortlet->run()
+#8 D:\Web\projects\eba\protected\views\layouts\main.php(80): CBaseController->widget('usermenu')
+#9 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#10 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#11 D:\Web\yii_lib\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#12 D:\Web\yii_lib\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="body">...')
+#13 D:\Web\yii_lib\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="body">...')
+#14 D:\Web\yii_lib\web\CBaseController.php(199): COutputProcessor->run()
+#15 D:\Web\yii_lib\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#16 D:\Web\projects\eba\protected\views\layouts\column2.php(31): CBaseController->endContent()
+#17 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#18 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#19 D:\Web\yii_lib\web\CController.php(781): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#20 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#21 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#22 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#23 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#25 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#26 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#27 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#29 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#31 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#32 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#33 D:\Web\projects\eba\index.php(13): CApplication->run()
+#34 {main} REQUEST_URI=/eba/
+2011/06/08 17:41:47 [error] [exception.CException] exception 'CException' with message 'Property "EbaWebUser.band" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CWebUser.php(124): CComponent->__get('band')
+#1 D:\Web\projects\eba\protected\components\views\userMenu.php(2): CWebUser->__get('band')
+#2 D:\Web\yii_lib\web\CBaseController.php(123): require('D:\Web\projects...')
+#3 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', NULL, false)
+#4 D:\Web\yii_lib\web\widgets\CWidget.php(240): CBaseController->renderFile('D:\Web\projects...', NULL, false)
+#5 D:\Web\projects\eba\protected\components\UserMenu.php(15): CWidget->render('userMenu')
+#6 D:\Web\yii_lib\zii\widgets\CPortlet.php(95): UserMenu->renderContent()
+#7 D:\Web\yii_lib\web\CBaseController.php(166): CPortlet->run()
+#8 D:\Web\projects\eba\protected\views\layouts\main.php(80): CBaseController->widget('usermenu')
+#9 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#10 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#11 D:\Web\yii_lib\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#12 D:\Web\yii_lib\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div id="body">...')
+#13 D:\Web\yii_lib\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="body">...')
+#14 D:\Web\yii_lib\web\CBaseController.php(199): COutputProcessor->run()
+#15 D:\Web\yii_lib\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#16 D:\Web\projects\eba\protected\views\layouts\column2.php(31): CBaseController->endContent()
+#17 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#18 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#19 D:\Web\yii_lib\web\CController.php(781): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#20 D:\Web\projects\eba\protected\controllers\BandController.php(196): CController->render('index', Array)
+#21 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#22 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#23 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#24 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#25 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#26 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#27 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#28 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#29 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#30 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('')
+#31 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#32 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#33 D:\Web\projects\eba\index.php(13): CApplication->run()
+#34 {main} REQUEST_URI=/eba/
+2011/06/08 17:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums
+2011/06/08 17:46:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums/ind...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums/index
+2011/06/08 17:46:59 [error] [exception.CException] exception 'CException' with message 'Alias "zii.widgets.CGridView" is invalid. Make sure it points to an existing PHP file.' in D:\Web\yii_lib\YiiBase.php:311
+Stack trace:
+#0 D:\Web\yii_lib\web\CWidgetFactory.php(147): YiiBase::import('zii.widgets.CGr...', true)
+#1 D:\Web\yii_lib\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(AlbumsController), 'zii.widgets.CGr...', Array)
+#2 D:\Web\yii_lib\web\CBaseController.php(165): CBaseController->createWidget('zii.widgets.CGr...', Array)
+#3 D:\Web\projects\eba\protected\views\albums\index.php(19): CBaseController->widget('zii.widgets.CGr...', Array)
+#4 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#5 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#6 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#7 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#8 D:\Web\projects\eba\protected\controllers\AlbumsController.php(134): CController->render('index', Array)
+#9 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#10 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#14 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#17 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('index')
+#19 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/index')
+#20 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#21 D:\Web\projects\eba\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/eba/index.php/albums/index
+2011/06/08 17:47:22 [error] [exception.CException] exception 'CException' with message 'Property "CGridView.itemView" is not defined.' in D:\Web\yii_lib\base\CComponent.php:173
+Stack trace:
+#0 D:\Web\yii_lib\web\CWidgetFactory.php(162): CComponent->__set('itemView', '_view')
+#1 D:\Web\yii_lib\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(AlbumsController), 'zii.widgets.gri...', Array)
+#2 D:\Web\yii_lib\web\CBaseController.php(165): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 D:\Web\projects\eba\protected\views\albums\index.php(19): CBaseController->widget('zii.widgets.gri...', Array)
+#4 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#5 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#6 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#7 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#8 D:\Web\projects\eba\protected\controllers\AlbumsController.php(134): CController->render('index', Array)
+#9 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#10 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#14 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#17 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('index')
+#19 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/index')
+#20 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#21 D:\Web\projects\eba\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/eba/index.php/albums/index
+2011/06/08 17:56:26 [error] [php] Undefined variable: dataProvider (D:\Web\projects\eba\protected\views\albums\index.php:17)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\AlbumsController.php(135): AlbumsController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (17)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (135)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 17:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums
+2011/06/08 17:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "albums".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('albums')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('albums')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/albums')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/albums
+2011/06/08 18:48:45 [error] [php] Trying to get property of non-object (D:\Web\projects\eba\protected\views\band\index.php:25)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\BandController.php(196): BandController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php
+in D:\Web\projects\eba\protected\views\band\index.php (25)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 18:53:56 [error] [php] Undefined variable: pic (D:\Web\projects\eba\protected\views\band\index.php:25)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\BandController.php(196): BandController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php
+in D:\Web\projects\eba\protected\views\band\index.php (25)
+in D:\Web\projects\eba\protected\controllers\BandController.php (196)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:03:11 [error] [php] Undefined variable: songs (D:\Web\projects\eba\protected\views\band\view.php:86)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\BandController.php(113): BandController->render()
+#3 unknown(0): BandController->actionView()
+#4 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
+#5 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#7 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#8 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#10 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#14 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#15 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#16 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#17 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/band/3
+in D:\Web\projects\eba\protected\views\band\view.php (86)
+in D:\Web\projects\eba\protected\controllers\BandController.php (113)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:23 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:25 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:26 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:27 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:28 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:15:29 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 19:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:31:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:39:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rate".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('rate')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('rate')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/rate')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/rate
+2011/06/08 19:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 19:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 19:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 19:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 19:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 19:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 19:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 19:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 19:59:54 [error] [php] get_class() expects parameter 1 to be object, array given (D:\Web\yii_lib\web\helpers\CHtml.php:2015)
+Stack trace:
+#0 D:\Web\yii_lib\web\widgets\CActiveForm.php(552): activeLabelEx()
+#1 D:\Web\projects\eba\protected\views\albums\index.php(47): CActiveForm->labelEx()
+#2 D:\Web\yii_lib\web\CBaseController.php(119): require()
+#3 D:\Web\yii_lib\web\CBaseController.php(88): AlbumsController->renderInternal()
+#4 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#5 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#6 D:\Web\projects\eba\protected\controllers\AlbumsController.php(135): AlbumsController->render()
+#7 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#8 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#10 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#12 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#13 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#15 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#16 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#17 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#18 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#19 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (47)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (135)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 20:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:04:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:04:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:04:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:10:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:19:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:20:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/m...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/muuda.png
+2011/06/08 20:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/k...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/kustuta.png
+2011/06/08 20:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('images')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('images')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/images/v...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/images/vaata.png
+2011/06/08 20:42:37 [error] [php] Undefined variable: id (D:\Web\projects\eba\protected\views\albums\index.php:67)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\AlbumsController.php(150): AlbumsController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (67)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (150)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 20:45:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in D:\Web\projects\eba\protected\controllers\AlbumsController.php:122
+Stack trace:
+#0 [internal function]: AlbumsController->actionDelete('3')
+#1 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#2 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlbumsController), Object(ReflectionMethod), Array)
+#3 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#7 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#10 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('delete')
+#12 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/delete')
+#13 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#14 D:\Web\projects\eba\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/eba/index.php/albums/delete/3
+2011/06/08 20:46:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in D:\Web\projects\eba\protected\controllers\AlbumsController.php:122
+Stack trace:
+#0 [internal function]: AlbumsController->actionDelete('3')
+#1 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#2 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlbumsController), Object(ReflectionMethod), Array)
+#3 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#6 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#7 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#10 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('delete')
+#12 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/delete')
+#13 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#14 D:\Web\projects\eba\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/eba/index.php/albums/delete/3
+2011/06/08 20:47:21 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.isGetRequest" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\projects\eba\protected\controllers\AlbumsController.php(112): CComponent->__get('isGetRequest')
+#1 [internal function]: AlbumsController->actionDelete('3')
+#2 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlbumsController), Object(ReflectionMethod), Array)
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('delete')
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/delete')
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/eba/index.php/albums/delete/3
+2011/06/08 21:23:28 [error] [php] Undefined variable: newAlbumAlbum (D:\Web\projects\eba\protected\views\albums\index.php:32)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\AlbumsController.php(152): AlbumsController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (32)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (152)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 21:24:47 [error] [exception.CException] exception 'CException' with message 'Property "Songs.yt_link" is not defined.' in D:\Web\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 D:\Web\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('yt_link')
+#1 D:\Web\yii_lib\web\helpers\CHtml.php(2050): CActiveRecord->__get('yt_link')
+#2 D:\Web\yii_lib\web\helpers\CHtml.php(1777): CHtml::resolveValue(Object(Songs), 'yt_link')
+#3 D:\Web\yii_lib\web\helpers\CHtml.php(1186): CHtml::activeInputField('text', Object(Songs), 'yt_link', Array)
+#4 D:\Web\yii_lib\web\widgets\CActiveForm.php(567): CHtml::activeTextField(Object(Songs), 'yt_link', Array)
+#5 D:\Web\projects\eba\protected\views\albums\index.php(72): CActiveForm->textField(Object(Songs), 'yt_link')
+#6 D:\Web\yii_lib\web\CBaseController.php(119): require('D:\Web\projects...')
+#7 D:\Web\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('D:\Web\projects...', Array, true)
+#8 D:\Web\yii_lib\web\CController.php(866): CBaseController->renderFile('D:\Web\projects...', Array, true)
+#9 D:\Web\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#10 D:\Web\projects\eba\protected\controllers\AlbumsController.php(152): CController->render('index', Array)
+#11 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#12 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#13 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#16 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#19 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('index')
+#21 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/index')
+#22 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#23 D:\Web\projects\eba\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/eba/index.php/albums/index
+2011/06/08 21:28:21 [error] [php] Undefined variable: genreList (D:\Web\projects\eba\protected\views\albums\index.php:66)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\AlbumsController.php(158): AlbumsController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (66)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (158)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 21:28:32 [error] [php] Undefined variable: albumList (D:\Web\projects\eba\protected\views\albums\index.php:66)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): AlbumsController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): AlbumsController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\AlbumsController.php(158): AlbumsController->render()
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(50): AlbumsController->actionIndex()
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\views\albums\index.php (66)
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (158)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 21:29:42 [error] [php] Undefined index: Albums (D:\Web\projects\eba\protected\controllers\AlbumsController.php:136)
+Stack trace:
+#0 D:\Web\yii_lib\web\filters\CFilterChain.php(133): AlbumsController->runAction()
+#1 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#2 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#3 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): AlbumsController->filterAccessControl()
+#4 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#6 D:\Web\yii_lib\web\CController.php(257): AlbumsController->runActionWithFilters()
+#7 D:\Web\yii_lib\web\CWebApplication.php(328): AlbumsController->run()
+#8 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#9 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/albums/index
+in D:\Web\projects\eba\protected\controllers\AlbumsController.php (136)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 21:45:58 [error] [php] Undefined variable: pic (D:\Web\projects\eba\protected\views\band\view.php:82)
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(866): BandController->renderFile()
+#1 D:\Web\yii_lib\web\CController.php(779): BandController->renderPartial()
+#2 D:\Web\projects\eba\protected\controllers\BandController.php(113): BandController->render()
+#3 unknown(0): BandController->actionView()
+#4 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs()
+#5 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams()
+#7 D:\Web\yii_lib\web\filters\CFilterChain.php(133): BandController->runAction()
+#8 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#9 D:\Web\yii_lib\web\CController.php(1122): CAccessControlFilter->filter()
+#10 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): BandController->filterAccessControl()
+#11 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#13 D:\Web\yii_lib\web\CController.php(257): BandController->runActionWithFilters()
+#14 D:\Web\yii_lib\web\CWebApplication.php(328): BandController->run()
+#15 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController()
+#16 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#17 D:\Web\projects\eba\index.php(13): CWebApplication->run()
+REQUEST_URI=/eba/index.php/band/1
+in D:\Web\projects\eba\protected\views\band\view.php (82)
+in D:\Web\projects\eba\protected\controllers\BandController.php (113)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 21:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "asdasd".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('asdasd')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('asdasd')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/asdasd')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/band/asdasd
+2011/06/08 21:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "playyoutube".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('playyoutube')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('playyoutube')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/playyout...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/index.php/albums/playyoutube
+2011/06/08 21:51:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Web\yii_lib\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(EbaWebUser), 'You are not aut...')
+#1 D:\Web\yii_lib\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#3 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#6 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('playyoutube')
+#8 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/playyout...')
+#9 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\Web\projects\eba\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/eba/index.php/albums/playyoutube
+2011/06/08 21:52:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Web\yii_lib\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\Web\yii_lib\web\auth\CAccessControlFilter.php(119): CAccessControlFilter->accessDenied(Object(EbaWebUser), 'You are not aut...')
+#1 D:\Web\yii_lib\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#3 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#6 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('playyoutube')
+#8 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/playyout...')
+#9 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\Web\projects\eba\index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/eba/index.php/albums/playyoutube
+2011/06/08 21:52:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\Web\yii_lib\web\CController.php:328
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#3 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#4 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('playyoutube')
+#9 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/playyout...')
+#10 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#11 D:\Web\projects\eba\index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/eba/index.php/albums/playyoutube
+2011/06/08 21:52:57 [error] [exception.CException] exception 'CException' with message 'AlbumsController cannot find the requested view "<object width="320" height="240"><param name="movie" value="http://www.youtube.com/v/LaIZ0mUJzr0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LaIZ0mUJzr0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="320" height="240"></embed></object>  ".' in D:\Web\yii_lib\web\CController.php:875
+Stack trace:
+#0 D:\Web\projects\eba\protected\controllers\AlbumsController.php(207): CController->renderPartial('<object width="...')
+#1 [internal function]: AlbumsController->actionPlayYoutube('http://www.yout...')
+#2 D:\Web\yii_lib\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#3 D:\Web\yii_lib\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(AlbumsController), Object(ReflectionMethod), Array)
+#4 D:\Web\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#5 D:\Web\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\Web\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#7 D:\Web\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#8 D:\Web\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\Web\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\Web\yii_lib\web\CController.php(283): CFilterChain->run()
+#11 D:\Web\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('playyoutube')
+#13 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('albums/playyout...')
+#14 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#15 D:\Web\projects\eba\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/eba/index.php/albums/playyoutube?url=http://www.youtube.com/watch?v=LaIZ0mUJzr0
+2011/06/08 22:20:22 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:23 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:27 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:28 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:29 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:30 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:31 [error] [upload files] Fail olemas10485760
+in D:\Web\projects\eba\protected\controllers\BandController.php (254)
+in D:\Web\projects\eba\index.php (13)
+2011/06/08 22:20:32 [error] [upload files error] Fail olemas
+in D:\Web\projects\eba\protected\controllers\BandController.php (270)
+in D:\Web\projects\eba\index.php (13)

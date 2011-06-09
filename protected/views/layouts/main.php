@@ -12,6 +12,7 @@
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.rater.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.resize.js"></script>
+        <link REL="SHORTCUT ICON" HREF="<?php echo Yii::app()->request->baseUrl; ?>/css/_gfx/favicon.gif">
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -19,10 +20,11 @@
             $("a[rel='colorbox']").colorbox({
                 'current': '{current}/{total}'
             });
+            $("a.colorbox").colorbox();
 
             $('#bands LI').click(function(event){
                     //event.preventDefault();
-                    $(this).toggleClass('active');
+                    $(this).addClass('active');
                     $(this).siblings().removeClass('active').find('.extra').slideUp(500);
                     $(this).find('.extra').slideDown(500);
 
@@ -40,13 +42,17 @@
                     $('#set').hide("fast");
             });
             
-            $('.stat').rater({ postHref: 'http://jvance.com/TestRater.aspx' });
+            $('.stat').rater({ postHref: '<?=Yii::app()->createUrl('band/rate');?>',id:$(this).attr('id') });
         
-            $('#albums li').click(function() {
+            $('#albums li').click(function() {                
                     $('.songs').hide('fast');
-                    $('#songs-'+$(this).index()).show('fast');                    
-                    console.log('#songs-'+$(this).index());
-                    $(this).addClass('selected').siblings().removeClass('selected');
+                    if($(this).hasClass('selected')){
+                       $(this).removeClass('selected'); 
+                    }
+                    else{
+                        $('#songs-'+$(this).index()).show('fast');                    
+                        $(this).addClass('selected').siblings().removeClass('selected');                                             
+                    }
 
             });
 	});
@@ -77,7 +83,7 @@
 				</div>
                                 <?php 
                                 if(!Yii::app()->user->isGuest){ 
-                                    $this->widget('usermenu');
+                                    $this->widget('UserMenu');
                                 }
                                 ?>
 

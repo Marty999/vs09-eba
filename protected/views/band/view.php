@@ -65,52 +65,42 @@ $this->menu = array(
             </td>
         </tr>
     </table>
+    <?php if($model->albums): ?>
+    <div id="albums_container">
     <p id="albums_title">Albumid</p>
     <p id="songs_title">Lood</p>	
     <div class="clear"></div>
     <ul id="albums">
-        <li id="album-all" class="selected">Kõik lood</li>
-        <li id="album-0">Album 1</li>
-        <li id="album-1">Album 2</li>
-        <li id="album-2">Album 3</li>
+        
+        <?php $songs = '';?>
+        <?php foreach($model->albums as $key=>$album):?>
+        <li><?=$album->name?></li>
+            <?php $songs .='<ul id="songs-'.$key.'" class="songs">'; ?>
+            <?php foreach($album->songs as $song): ?>
+                <?php $songs .= '<li>'.$song->name; ?>
+                <?php if($song->yt_url):?>
+                    <?php $songs .= CHtml::link(CHtml::image( Yii::app()->baseUrl . '/images/yt.png'),Yii::app()->createUrl('albums/playyoutube',array('url'=>$song->yt_url)),array('class'=>'colorbox'));  ?>
+                <?php endif;?>
+                <?php $songs .='</li>';?>
+            <?php endforeach; ?>
+            <?php $songs .= '</ul>';?>
+        <?php endforeach;?>
     </ul>
     <div id="songs_container">
-        <ul class="songs" id="songs-1" data-id="1">
-            <li>Lugu 1</li>
-            <li>Lugu 1<?=CHtml::link(CHtml::image(Yii::app()->baseUrl.'/images/yt.png'),'#')?></li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-            <li>Lugu 1</li>
-        </ul>
+        <?=$songs?>
     </div>
     <div class="clear"></div>
-    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="www.eba.ee/test" num_posts="5" width="600"></fb:comments>
+    </div>
+    <?php endif;?>
+    <div class="clear"></div>
+    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<?=Yii::app()->createAbsoluteUrl('band/view',array('id'=>$model->id))?>" num_posts="5" width="600"></fb:comments>
     <div class="clear"></div>
 </div>
 <div id="r-cont">
     <p><strong>Pilte: </strong></p>
     <ul>
-        <?php 
-            $pics = json_decode($model->pics);
-        ?>
-        <?php if($pics): ?>    
+
+        <?php if($model->pics): ?>    
             <?php foreach(json_decode($model->pics) as $pic):?>
                 <li><?=CHtml::link(CHtml::image( Yii::app()->baseUrl . '/' . $pic->tn),Yii::app()->baseUrl . '/' . $pic->main,array('rel'=>'colorbox'));  ?></li>
             <?php endforeach; ?>
@@ -122,7 +112,7 @@ $this->menu = array(
 $('#r-cont').height($('#content').height());
 
 $("#l-cont").resize( function() {
-    $('#r-cont').height($('#content').height());
+    $('#r-cont').height($('#l-cont').height());
 });
 
 

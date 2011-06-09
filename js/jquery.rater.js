@@ -1,4 +1,4 @@
-﻿//copyright 2008 Jarrett Vance
+//copyright 2008 Jarrett Vance
 //http://jvance.com
 $.fn.rater = function(options) {
     var opts = $.extend({}, $.fn.rater.defaults, options);
@@ -8,7 +8,7 @@ $.fn.rater = function(options) {
         var $off = $this.find('.ui-rater-starsOff');
         opts.size = $on.height();
         if (opts.rating == undefined) opts.rating = $on.width() / opts.size;
-        if (opts.id == undefined) opts.id = $this.attr('id');
+        if (opts.id == undefined) opts.id = $(this).attr('id');
 
         $off.mousemove(function(e) {
             var left = e.clientX - $off.offset().left;

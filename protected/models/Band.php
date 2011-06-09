@@ -72,6 +72,8 @@ class Band extends CActiveRecord
 		return array(
 			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 			'genre' => array(self::BELONGS_TO, 'Genre', 'genre_id'),
+                        'albums' => array(self::HAS_MANY, 'Albums', 'band_id'),
+
 		);
 	}
 

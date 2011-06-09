@@ -12,9 +12,7 @@
         <div class="left">
             <div class="inner">
                 <?php
-                    $this->widget('search');
-                    
-       
+                    $this->widget('Search');
                 ?>
             </div>
         </div>
