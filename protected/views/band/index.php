@@ -11,19 +11,15 @@ $this->widget('CLinkPager', array(
     <?php foreach($bands as $band): ?>
     <li>
         <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2>
-        <div id="votes-<?=$band->id?>" class="stat">
-        <div class="statVal">
-            <span class="ui-rater">
-                <span class="ui-rater-starsOff" style="width:90px;"><span class="ui-rater-starsOn" style="width:<?=intval($band->rating*18)?>px"></span></span>
-                <span class="ui-rater-rating"><?=$band->rating?></span>&#160;(<span class="ui-rater-rateCount">2</span>)
-            </span>
+        <div class="votes" data="<?=$band->rating?>_<?=$band->id?>">
         </div>
 
         <div class="clear"></div>
         <div class="extra">
-                <?php $pics = json_decode($band->pics,true); ?>
+                <?php $pics = json_decode($band->pics); ?>
                 <?php if($pics):?>
-                    <img src="<?php echo Yii::app()->request->baseUrl.'/'.$pics[0]['tn'];?>" alt="" />
+                <?php $pics = reset($pics); ?>
+                    <img src="<?php echo Yii::app()->request->baseUrl.'/'.$pics->tn;?>" alt="" />
                 <?php else: ?>
                     <img src="<?php echo Yii::app()->request->baseUrl.'/images/band_dummy.jpg';?>" alt="" />
                 <?php endif; ?>

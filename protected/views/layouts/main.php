@@ -9,8 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/notify.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/colorbox.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jRating.jquery.css" />
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.rater.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jRating.jquery.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.resize.js"></script>
         <link REL="SHORTCUT ICON" HREF="<?php echo Yii::app()->request->baseUrl; ?>/css/_gfx/favicon.gif">
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
@@ -29,6 +30,9 @@
                     $(this).find('.extra').slideDown(500);
 
             });
+            $('#bands LI .votes').click(function(){
+                return false;
+            });
             
             $('#settings').click(function(){
                     if ( $('#set').css("display") == "none" ){
@@ -41,8 +45,34 @@
             $(window).click(function(){
                     $('#set').hide("fast");
             });
-            
-            $('.stat').rater({ postHref: '<?=Yii::app()->createUrl('band/rate');?>',id:$(this).attr('id') });
+
+            $(".votes").jRating({
+                bigStarsPath: '<?=Yii::app()->baseUrl?>/css/_gfx/rating/stars1.png',
+                step:true,
+                length : 5, 
+                rateMax: 5,
+                phpPath: '<?=Yii::app()->createUrl('band/rating')?>',
+                onSuccess: function(){
+                    window.location.reload();  
+                },
+                onError : function(){
+                        alert('Oled juba selle bändi poolt hääletanud');
+                }
+            });
+            $(".vote").jRating({
+                bigStarsPath: '<?=Yii::app()->baseUrl?>/css/_gfx/rating/stars.png',
+                step:true,
+                length : 5, 
+                rateMax: 5,
+                phpPath: '<?=Yii::app()->createUrl('band/rating')?>',
+                 onSuccess: function(){
+                    window.location.reload();  
+                },
+                onError : function(){
+                        alert('Oled juba selle bändi poolt hääletanud');
+                }
+            });
+
         
             $('#albums li').click(function() {                
                     $('.songs').hide('fast');

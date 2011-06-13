@@ -85,20 +85,42 @@ class BandController extends Controller
          */
          public function actionRating() {
              
-             if (isset($_POST['id']) && isset($_POST['rate']) && $_POST['rate'] <= 10) {
-                 $band = $this->loadModel($_POST['id']);
-                 if($band->rating > 0){
-                    $band->rating = ($_POST['rate']+$band->rating)/2;
+             if (isset($_POST['idBox']) && isset($_POST['rate']) && $_POST['rate'] <= 5) {
+                 if(!empty(Yii::app()->request->cookies['eba_vote']->value)){
+                     $cookie = json_decode(Yii::app()->request->cookies['eba_vote']->value);
+                     if(!in_array($_POST['idBox'], $cookie)){
+                         $cookie[] = $_POST['idBox'];
+                         $cookie = json_encode($cookie);
+                         Yii::app()->request->cookies['eba_vote'] = new CHttpCookie('eba_vote', $cookie);
+                     }else{
+                         $error['error'] = true;
+                         $error['message'] = 'Oled juba hääletanud selle bändi poolt';
+                     }
+                     
+                 }else{
+                         $cookie[] = $_POST['idBox'];
+                         $cookie = json_encode($cookie);
+                         Yii::app()->request->cookies['eba_vote'] = new CHttpCookie('eba_vote', $cookie);
+                                             
                  }
-                 else{
-                     $band->rating = $_POST['rate'];
-                 }
-                 $band->save(false);
-                 
-                 echo intval($band->rating);
-                 
-                 
              }
+             if(isset($error)){
+                 echo json_encode($error);
+             }else{
+                     $band = $this->loadModel($_POST['idBox']);
+                     $band->rate_count +=1;
+                     if($band->rating > 0){
+                        $band->rating = ($_POST['rate']+($band->rating*($band->rate_count-1)))/$band->rate_count;
+                     }
+                     else{
+                         $band->rating = $_POST['rate'];
+                     }
+                     $band->save(false);
+
+                     echo intval($band->rating);
+                 echo 1;
+             }
+             
 
          }
 	/**

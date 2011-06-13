@@ -24,7 +24,7 @@ $this->menu = array(
 <div class="clear"></div>
 <div id="l-cont">
     <p><strong>Tutvustus</strong></p>
-<!--    <p class="rating"><strong>Rating: </strong></p>-->
+    <div class="vote" data="<?=$model->rating;?>_<?=$model->id?>"></div>
     <div id="editor_content"><?=$model->description?></div>
     <table>
 <!--        <tr>
