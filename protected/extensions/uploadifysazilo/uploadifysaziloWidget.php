@@ -18,6 +18,7 @@
 		public $onCompleteJs;		//The javascript to be executed after successful upload withour the <script> tag.
 		public $autoUpload;			//AutoUpload: Allowed true or false. Default value is true
 		public $baseUrl;
+		public $scriptData;
 		
 		public function registerClientScript()
 		{
@@ -52,6 +53,9 @@
 			
 			if ($this->onCompleteJs == NULL)
 				$this->onCompleteJs = "";
+                        
+			if ($this->scriptData == NULL)
+				$this->scriptData = "";
 			
 			if ($this->autoUpload == NULL)
 				$this->autoUpload = "true";
@@ -66,6 +70,7 @@
 														'buttonText'=>$this->buttonText,
 														'simUploadLimit'=>$this->simUploadLimit,
 														'onCompleteJs'=>$this->onCompleteJs,
-														'autoUpload'=>$this->autoUpload));
+														'autoUpload'=>$this->autoUpload,
+														'scriptData'=>$this->scriptData));
 		}
 	}

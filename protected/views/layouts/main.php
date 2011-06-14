@@ -3,17 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/footer.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/notify.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/colorbox.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jRating.jquery.css" />
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.colorbox.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jRating.jquery.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.resize.js"></script>
-        <link REL="SHORTCUT ICON" HREF="<?php echo Yii::app()->request->baseUrl; ?>/css/_gfx/favicon.gif">
+                <?php 
+        $cs = Yii::app()->getClientScript();
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/reset.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/footer.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/main.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/form.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/notify.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/colorbox.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/jRating.jquery.css');
+        $cs->registerCssFile(Yii::app()->request->baseUrl .'/css/jNotify.jquery.css');
+        
+        $cs->registerScriptFile(Yii::app()->request->baseUrl .'/js/jquery.colorbox.js');
+        $cs->registerScriptFile(Yii::app()->request->baseUrl .'/js/jRating.jquery.js');
+        $cs->registerScriptFile(Yii::app()->request->baseUrl .'/js/jquery.resize.js');
+        $cs->registerScriptFile(Yii::app()->request->baseUrl .'/js/jNotify.jquery.js');
+
+        
+        
+        ?>
+
+        <link REL="SHORTCUT ICON" HREF="<?php echo Yii::app()->request->baseUrl; ?>/css/_gfx/eba.ico">
         <?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -56,7 +66,23 @@
                     window.location.reload();  
                 },
                 onError : function(){
-                        alert('Oled juba selle bändi poolt hääletanud');
+                    jError(
+                    'Oled selle bändi poolt juba hääletanud!',
+                    {
+                      autoHide : true, // added in v2.0
+                      clickOverlay : false, // added in v2.0
+                      MinWidth : 250,
+                      TimeShown : 2000,
+                      ShowTimeEffect : 400,
+                      HideTimeEffect : 400,
+                      LongTrip :20,
+                      HorizontalPosition : 'center',
+                      VerticalPosition : 'top',
+                      ShowOverlay : true,
+                      ColorOverlay : '#000',
+                      OpacityOverlay : 0.5
+                    });
+                    return false;
                 }
             });
             $(".vote").jRating({
@@ -69,7 +95,23 @@
                     window.location.reload();  
                 },
                 onError : function(){
-                        alert('Oled juba selle bändi poolt hääletanud');
+                    jError(
+                    'Oled selle bändi poolt juba hääletanud!',
+                    {
+                      autoHide : true, // added in v2.0
+                      clickOverlay : false, // added in v2.0
+                      MinWidth : 250,
+                      TimeShown : 2000,
+                      ShowTimeEffect : 400,
+                      HideTimeEffect : 400,
+                      LongTrip :20,
+                      HorizontalPosition : 'center',
+                      VerticalPosition : 'top',
+                      ShowOverlay : true,
+                      ColorOverlay : '#000',
+                      OpacityOverlay : 0.5
+                    });
+                    return false;
                 }
             });
 
@@ -85,12 +127,35 @@
                     }
 
             });
+            
+            $("#search-form").submit(function(){
+                    if($("#search_box").val() == '') {
+                    jError(
+                    'Palun sisesta otsitav sõna!',
+                    {
+                      autoHide : true, // added in v2.0
+                      clickOverlay : false, // added in v2.0
+                      MinWidth : 250,
+                      TimeShown : 2000,
+                      ShowTimeEffect : 400,
+                      HideTimeEffect : 400,
+                      LongTrip :20,
+                      HorizontalPosition : 'center',
+                      VerticalPosition : 'top',
+                      ShowOverlay : true,
+                      ColorOverlay : '#000',
+                      OpacityOverlay : 0.5
+                    });
+                            return false;
+                    }
+            });
 	});
 	
 	
 	</script>
 </head>
 <body>
+<!--[if lte IE 6]><script src="<?=Yii::app()->request->baseUrl?>/js/ie6/warning.js"></script><script>window.onload=function(){e("<?=Yii::app()->request->baseUrl?>/js/ie6/")}</script><![endif]-->
 <div id="wrap">
 	<div id="main">
 		<!-- header -->
@@ -104,7 +169,7 @@
                                         'items'=>array(
                                           array('label'=>'Avaleht', 'url'=>array('band/index')),
                                           array('label'=>'Logi sisse', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-                                          array('label'=>'Registreeri', 'url'=>array('/site/register'), 'visible'=>Yii::app()->user->isGuest),                                          
+                                          array('label'=>'Registreeru', 'url'=>array('/site/register'), 'visible'=>Yii::app()->user->isGuest),                                          
                                           array('label'=>'Logi välja ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
                                         ),
                                         'id' => 'menu',
@@ -142,6 +207,6 @@
 		</div>
 	</div>
 </div>
-<div id="footer"><p class="content">EBA 2011<p></div>	
+<div id="footer"><p class="content">EBA 2011 Leheküle administraator: <a href="mailto:eba.loputoo@gmail.com">eba.loputoo@gmail.com</a><p></div>
 </body>
 </html>

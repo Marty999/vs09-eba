@@ -7,6 +7,7 @@
 			$(document).ready(function() {
 				$(\"#fileUpload\").fileUpload({
 					'uploader': '$uploaderPath',
+					'scriptData': $scriptData,
 					'cancelImg': '$cancelImage',
 					'script': '$uploadScript',
 					'folder': '$uploadFolder',

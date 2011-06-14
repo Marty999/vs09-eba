@@ -125,6 +125,20 @@ class Band extends CActiveRecord
 		));
 	}
         
+        /**
+         * Behaviors for this model
+         */
+        public function behaviors(){
+          return array(
+            'sluggable' => array(
+              'class'=>'ext.behaviors.slug.SluggableBehavior',
+              'columns' => array('name'),
+              'unique' => true,
+              'update' => true,
+            ),
+          );
+        }
+        
         /*
          * Kasutaja nimi
          */ 

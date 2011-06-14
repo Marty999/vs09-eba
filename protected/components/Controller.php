@@ -20,4 +20,20 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+        
+//        public function render($view, $data = null, $return = false, $options = null)
+//        {
+//            $output = parent::render($view, $data, true);
+//
+//            $compactor = Yii::app()->contentCompactor;
+//            if($compactor == null)
+//                throw new CHttpException(500, Yii::t('messages', 'Missing component ContentCompactor in configuration.'));
+//
+//            $output = $compactor->compact($output, $options);
+//
+//            if($return)
+//                return $output;
+//            else
+//                echo $output;
+//        }
 }

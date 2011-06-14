@@ -3,7 +3,7 @@ if (!Yii::app()->user->isGuest) {
     //kui kasutaja on bandi omanik
     if (Yii::app()->user->band->id == $model->id) {
         $this->breadcrumbs = array(
-            'Minu band',
+            'Minu bänd',
         );
     }
 } else {
@@ -11,13 +11,9 @@ if (!Yii::app()->user->isGuest) {
         $model->name,
     );
 }
-$this->menu = array(
-    array('label' => 'List Band', 'url' => array('index')),
-    array('label' => 'Create Band', 'url' => array('create')),
-    array('label' => 'Update Band', 'url' => array('update', 'id' => $model->id)),
-    array('label' => 'Delete Band', 'url' => '#', 'linkOptions' => array('submit' => array('delete', 'id' => $model->id), 'confirm' => 'Are you sure you want to delete this item?')),
-    array('label' => 'Manage Band', 'url' => array('admin')),
-);
+
+$this->pageTitle = 'Eesti bändide andmebaas - '.$model->name;
+
 ?>
 
 <h2 id="band_name"><?=$model->name?></h2><p class="genre">(<?=$model->genre->name?>)</p>
@@ -48,7 +44,7 @@ $this->menu = array(
         </tr>-->
         <tr>
             <td><p><strong>Koduleht: </strong></p></td>
-            <td><p><a href="#"><?=$model->website?></a></p></td>
+            <td><p><a href="<?=$model->website?>" target="_blank"><?=$model->website?></a></p></td>
         </tr>
         <tr>
             <td><p><strong>Kontakt: </strong></p></td>

@@ -10,7 +10,7 @@ $this->widget('CLinkPager', array(
 <ul id="bands">
     <?php foreach($bands as $band): ?>
     <li>
-        <h2><?=$band->name;?> <span>(<?=$band->genre->name;?>)</span></h2>
+        <h2><?=CHtml::encode($band->name);?> <span>(<?=$band->genre->name;?>)</span></h2>
         <div class="votes" data="<?=$band->rating?>_<?=$band->id?>">
         </div>
 
@@ -25,10 +25,9 @@ $this->widget('CLinkPager', array(
                 <?php endif; ?>
                 <p><strong>Aasta:</strong> <?=$band->activeSince;?></p>
                 <p><strong>Email:</strong> <?=$band->email;?></p>
-                <p><strong>Veeb:</strong> <?=$band->website;?></p>
-                <p><strong>Aasta:</strong> <?=$band->activeSince;?></p>
+                <p><strong>Veeb:</strong> <a href="<?=$band->website;?>" target="_blank"><?=$band->website;?></a></p>
                 <div class="clear"></div>
-                <p class="details-link"><a href="#"><?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/css/_gfx/read_more_link.png').'Täpsemalt', array('view', 'id'=>$band->id)); ?></p>
+                <p class="details-link"><a href="#"><?php echo CHtml::link(CHtml::image(Yii::app()->request->baseUrl.'/css/_gfx/read_more_link.png').'Täpsemalt', array('view', 'slug'=>$band->slug)); ?></p>
         </div>
     </li>
     <?php endforeach; ?>

@@ -17,6 +17,9 @@
                 // additional javascript options for the autocomplete plugin
                 'options'=>array(
                                 'showAnim'=>'fold',
+                                'select'=> 'js:function(event, ui) {
+                                    window.location.href =\''.Yii::app()->createAbsoluteUrl('band/byname',array('name'=>'')).'\'+ui.item.value;
+                                }',
                 ),
         ));
         

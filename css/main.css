@@ -23,7 +23,7 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 #menu LI A:hover{text-decoration:underline;}
 
 #alpha-menu{background-color:#e5e1e1;height:25px;border:1px solid #aaadaf;border-top:none;float:right;margin-right:50px;}
-#alpha-menu{border-radius-bottomleft:5px;border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px; -webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;padding:0 15px;}
+#alpha-menu{border-bottom-right-radius:5px;border-bottom-left-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px; -webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;padding:0 15px;}
 #alpha-menu UL{}
 #alpha-menu LI{float:left;}
 #alpha-menu LI.selected > A{text-decoration: underline;}
@@ -32,7 +32,7 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 
 #body{margin-top:30px;}
 #body .left,#body .right, #body .main{float:left;border:1px solid #a1a0a0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
-#body .left{width:297px;margin-right:20px;background-color:white;padding:8px;}
+#body .left{width:296px;margin-right:20px;background-color:white;padding:8px;}
 #body .left .inner{background-color:#bae87c;border:1px solid #8cc63f;padding:4px;}
 
 
@@ -62,7 +62,7 @@ div.clear { clear:both; display:block; height:1px; margin:-1px 0 0 0 }
 }
 
 
-#body .right, #body .main{width:623px;background-color:white;margin-bottom:20px;}
+#body .right, #body .main{width:613px;background-color:white;margin-bottom:20px; float:right;}
 #body .main{width:100%;float:none;}
 #body .right .top, #body .main .top{height:15px;background:url('_gfx/content_gr_top.png') repeat-x;border-bottom:1px solid #8e8d8d;}
 #body .right .bottom, #body .main .bottom{height:15px;background:url('_gfx/content_gr_bottom.png') repeat-x;border-top:1px solid #8e8d8d;}
@@ -106,6 +106,7 @@ h2 {color: #8cc63f; font-size: 16px;}
 #band_name, #genre{float:left;padding-right:10px;}
 /* Albumid */
 #albums .selected { background-image: url('_gfx/bg-3.png');}
+#albums li:hover { background-image: url('_gfx/bg-3.png');}
 #albums_container{margin-bottom:30px;border:1px solid #E9E9E9;}
 #albums {position: relative;float:left;padding:0 !important;}
 #songs_container{float:left;padding:10px;}
@@ -115,7 +116,7 @@ h2 {color: #8cc63f; font-size: 16px;}
 .songs LI{padding:3px;}
 .songs LI A{margin-left:5px;}
 
-#albums_title,#songs_title {background-color: #eee;background-color: rgba(190, 190, 190, 0.2);background: url('_gfx/bg-2.png'); height: 8px;width: 150px; float: left; padding: 6px;color: #000;font-weight:bold;}
+#albums_title,#songs_title {background-color: #eee;background-color: rgba(190, 190, 190, 0.2);background: url('_gfx/bg-2.png'); height: 14px;width: 150px; float: left; padding: 6px;color: #000;font-weight:bold;}
 #songs_title{width:423px;border-left:1px solid #E9E9E9;}
 
 
@@ -133,14 +134,14 @@ h2 {color: #8cc63f; font-size: 16px;}
 
 /* Band menu */
 #settings {float: left; position: relative; color: #ccc;}
-#settings a {text-decoration: none; color: #ccc;padding:0 10px;}
+#settings a {text-decoration: none; color: #ccc;padding:10 10px; margin-top:3px;}
 #settings a:hover {color: #888;}
 #settings p {margin: 5px 0 0 20px;}
-#settings p, #set {background-color:#444;padding:5px;border:1px solid #666;border-radius-bottomleft:5px;border-radius-bottomright:5px;border-radius-topleft:5px;border-radius-topright:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px; -webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;-webkit-border-radius-topleft:5px;-webkit-border-radius-topright:5px;}
-#set {display: none; width: 125px; position: absolute; margin-left: 20px;z-index:10;}
+#settings p, #set {background-color:#444;padding:5px 10px;border:1px solid #666;border-radius:5px;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px; -webkit-border-radius-bottomleft:5px;-webkit-border-radius-bottomright:5px;-webkit-border-radius-topleft:5px;-webkit-border-radius-topright:5px;}
+#set {display: none; width: 100px; position: absolute; margin-left: 20px;z-index:10;}
 #set li {padding: 3px 0;}
-.logout {margin-top: 5px;padding-top: 5px; border-top: 1px solid #666;}
 .drop {margin-left: 5px;}
+.outlog {border-top: 1px solid #666; margin-top: 5px;}
 
 /* Album Change */
 #albums_form .form{float:left;}

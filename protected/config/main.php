@@ -45,13 +45,28 @@ return array(
                 // uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
+                        'showScriptName'=>false,
 			'urlFormat'=>'path',
 			'rules'=>array(
+                                'band/details/<slug:.*?>'=>'band/view',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
+                'contentCompactor' => array(
+                    'class' => 'ext.contentCompactor.ContentCompactor',
+                    'options' => array(
+                        '',
+                    ),
+               ),
+                'clientScript' => array(
+                  'class' => 'ext.minify.EClientScript',
+                  'combineScriptFiles' => true, // By default this is set to false, set this to true if you'd like to combine the script files
+                  'combineCssFiles' => true, // By default this is set to false, set this to true if you'd like to combine the css files
+                  'optimizeCssFiles' => true,  // @since: 1.1
+                  'optimizeScriptFiles' => true,   // @since: 1.1
+                ),
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

@@ -41,7 +41,7 @@ class BandController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 
-				'actions'=>array('index','view','autocomplete','rating','upload','ajaxpics'),
+				'actions'=>array('index','view','autocomplete','rating','upload','ajaxpics','byname'),
 
 				'users'=>array('*'),
 			),
@@ -67,9 +67,8 @@ class BandController extends Controller
             $res =array();
 
             if (isset($_GET['term'])) {
-                    Yii::trace($_GET['term']);
                     // http://www.yiiframework.com/doc/guide/database.dao
-                    $qtxt ="SELECT name FROM tbl_band WHERE name LIKE :name";
+                    $qtxt ="SELECT name,id FROM tbl_band WHERE name LIKE :name";
                     $command =Yii::app()->db->createCommand($qtxt);
                     $command->bindValue(":name", '%'.$_GET['term'].'%', PDO::PARAM_STR);
                     $res =$command->queryColumn();
@@ -123,15 +122,31 @@ class BandController extends Controller
              
 
          }
+         
+         /*
+          * autocompletest suunamine
+          * 
+          */
+         public function actionByname($name){
+            
+           Yii::import('ext.behaviors.slug.Doctrine_Inflector');
+            
+            $this->redirect($this->createUrl('band/view',array('slug'=>Doctrine_Inflector::urlize($name))));    
+             
+         }
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
+	public function actionView($slug)
 	{
                 $this->layout='//layouts/column1';
+                $band = Band::model()->findByAttributes(array('slug'=>$slug));
+                if($band===null)
+			throw new CHttpException(404,'Sellist bändi ei eksisteeri.');
+                
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$band,
 		));
 	}
 
@@ -264,10 +279,10 @@ class BandController extends Controller
 	 */
 	public function actionUpload()
 	{          
-            
+             Yii::log('post'.var_dump($_POST), 'error', 'upload files');
             if (!empty($_FILES)) {
                 
-                $folder = 'uploads/band/'.$_GET['id'];
+                $folder = 'uploads/band/'.CHttpRequest::getParam('id');
                 $name = uniqid();
 
                 $img = Yii::app()->imagemod->load($_FILES['Filedata']);
@@ -300,7 +315,7 @@ class BandController extends Controller
                         if($img->processed){                            
                                 $url_tn = str_replace('\\','/',$img->file_dst_pathname);
 
-                                $model = Band::model()->findByPk($_GET['id']);
+                                $model = Band::model()->findByPk(CHttpRequest::getParam('id'));
                                 if(strlen($model->pics) == 0){
                                 $pics = array();
                             }
@@ -309,7 +324,9 @@ class BandController extends Controller
                             }
                             array_push($pics,array('main'=>$url_big,'tn'=>$url_tn,));
                             $model->pics = json_encode($pics);
-                            $model->save(false);
+                           if ($model->save(false))
+                                   echo 1;
+                            
                         }
                         else{
                             

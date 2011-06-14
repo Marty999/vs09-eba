@@ -9,7 +9,8 @@ $this->breadcrumbs=array(
 <?php
      $this->widget('application.extensions.uploadifysazilo.uploadifysaziloWidget', 
                                                 array('multi'=>'true',
-                                                      'uploadScript'=>Yii::app()->createUrl('band/upload',array('id'=>Yii::app()->user->band->id)), //Controller and action to be performed
+                                                      'uploadScript'=>Yii::app()->createUrl('band/upload'), //Controller and action to be performed
+                                                      'scriptData'=>'{\'id\':'.Yii::app()->user->band->id.'}' ,
                                                       'onCompleteJs'=>'loadPics();',
                                                       'buttonText'=> 'Vali failid',
                                                       'autoUpload'=>'true'));
