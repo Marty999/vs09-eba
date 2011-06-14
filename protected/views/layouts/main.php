@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ee-ET">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
                 <?php 
         $cs = Yii::app()->getClientScript();

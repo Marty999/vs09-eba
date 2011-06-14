@@ -789,3 +789,34 @@ REQUEST_URI=/eba/band/rating
 in D:\Web\projects\eba\protected\extensions\behaviors\slug\SluggableBehavior.php (85)
 in D:\Web\projects\eba\protected\controllers\BandController.php (117)
 in D:\Web\projects\eba\index.php (13)
+2011/06/14 09:04:38 [error] [exception.CException] exception 'CException' with message 'Property "Band.slug" is not defined.' in E:\WEB\yii_lib\base\CComponent.php:131
+Stack trace:
+#0 E:\WEB\yii_lib\db\ar\CActiveRecord.php(128): CComponent->__get('slug')
+#1 E:\WEB\projects\eba\protected\views\band\index.php(30): CActiveRecord->__get('slug')
+#2 E:\WEB\yii_lib\web\CBaseController.php(119): require('E:\WEB\projects...')
+#3 E:\WEB\yii_lib\web\CBaseController.php(88): CBaseController->renderInternal('E:\WEB\projects...', Array, true)
+#4 E:\WEB\yii_lib\web\CController.php(866): CBaseController->renderFile('E:\WEB\projects...', Array, true)
+#5 E:\WEB\yii_lib\web\CController.php(779): CController->renderPartial('index', Array, true)
+#6 E:\WEB\projects\eba\protected\controllers\BandController.php(233): CController->render('index', Array)
+#7 E:\WEB\yii_lib\web\actions\CInlineAction.php(50): BandController->actionIndex()
+#8 E:\WEB\yii_lib\web\CController.php(300): CInlineAction->runWithParams(Array)
+#9 E:\WEB\yii_lib\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 E:\WEB\yii_lib\web\filters\CFilter.php(41): CFilterChain->run()
+#11 E:\WEB\yii_lib\web\CController.php(1122): CFilter->filter(Object(CFilterChain))
+#12 E:\WEB\yii_lib\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\WEB\yii_lib\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\WEB\yii_lib\web\CController.php(283): CFilterChain->run()
+#15 E:\WEB\yii_lib\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('')
+#17 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('')
+#18 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#19 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/eba/
+2011/06/14 09:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in E:\WEB\yii_lib\web\CController.php:477
+Stack trace:
+#0 E:\WEB\yii_lib\web\CController.php(262): CController->missingAction('details')
+#1 E:\WEB\yii_lib\web\CWebApplication.php(328): CController->run('details')
+#2 E:\WEB\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/details')
+#3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 E:\WEB\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/band/details/
