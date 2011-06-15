@@ -5,6 +5,9 @@ $this->widget('CLinkPager', array(
 
 <?php if(isset($_GET['search'])): ?>
     <h2>Otsing: "<?=$_GET['search']?>"</h2>
+    <?php if(!$bands):?>
+    <p style="margin-top: 20px;"><strong>Tulemused puuduvad, proovige uuesti!</strong></p>
+    <?php endif; ?>
 <?php endif; ?>
     
 <ul id="bands">
@@ -31,4 +34,5 @@ $this->widget('CLinkPager', array(
         </div>
     </li>
     <?php endforeach; ?>
+
 </ul>

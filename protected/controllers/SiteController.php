@@ -3,6 +3,7 @@
 class SiteController extends Controller
 {
   public $layout='//layouts/column1';
+  public $breadcrumbs = array();
 	/**
 	 * Declares class-based actions.
 	 */
@@ -49,28 +50,9 @@ class SiteController extends Controller
 	    }
 	}
 
-	/**
-	 * Displays the contact page
-	 */
-	public function actionContact()
-	{
-		$model=new ContactForm;
-		if(isset($_POST['ContactForm']))
-		{
-			$model->attributes=$_POST['ContactForm'];
-			if($model->validate())
-			{
-				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
-				$this->refresh();
-			}
-		}
-		$this->render('contact',array('model'=>$model));
-	}
 
 	/**
-	 * Displays the register page
+	 * Registreerimine
 	 */
 	public function actionRegister()
 	{
@@ -106,7 +88,6 @@ class SiteController extends Controller
                         if($band->genre_id == -1){
                             $genreValid = $genre->validate();                           
                         }
-                        
 			if($userValid && $bandValid && $user->save()){
                                 $band->user_id = $user->id;
                                 //kui on manuaalselt lisatud zanr
@@ -129,36 +110,9 @@ class SiteController extends Controller
 		$this->render('register',array('user'=>$user,'band'=>$band,'genreList'=>$genreList,'genre'=>$genre));
 	}
         
-       public function actionTest(){
-        $dataProvider=new CActiveDataProvider('User');
-   
-	$item_count =32;
-	$page_size =2;
-
-	$pages =new CPagination($item_count);
-	$pages->setPageSize($page_size);
-
-	// simulate the effect of LIMIT in a sql query
-	$end =($pages->offset+$pages->limit <= $item_count ? $pages->offset+$pages->limit : $item_count);
-
-	$sample =range($pages->offset+1, $end);
-//
-//	$this->render('basic_pager', array(
-//		'item_count'=>$item_count,
-//		'page_size'=>$page_size,
-//		'items_count'=>$item_count,
-//		'pages'=>$pages,
-//		'sample'=>$sample,
-//	));
-            
-        
-        
-           $this->render('//site/test',array('dataProvider'=>$dataProvider,'pages'=>$pages));
-           
-       }
         
 	/**
-	 * Displays the login page
+	 *Kuvame login vormi
 	 */
 	public function actionLogin()
 	{
@@ -184,7 +138,7 @@ class SiteController extends Controller
 	}
 
 	/**
-	 * Logs out the current user and redirect to homepage.
+	 * Logib kasutaja välja
 	 */
 	public function actionLogout()
 	{

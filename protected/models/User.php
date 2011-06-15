@@ -105,11 +105,11 @@ class User extends CActiveRecord
          /**
 	 * Kontrollib kas sisestatud parool võrdub 
 	 * @return bool 
-         * @todo parooli crypt andmebaasis
+         * 
 	 */
         final function validatePassword($password){
             
-             return $password===$this->password;
+             return md5($password)===$this->password;
         }
         
         
@@ -154,4 +154,10 @@ class User extends CActiveRecord
                   return $userband;
           
       } 
+        public function beforeSave()
+        {
+            $pass = md5($this->password);
+            $this->password = $pass;
+            return true;
+        }
 }

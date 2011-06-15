@@ -7,6 +7,7 @@ class BandController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
+        public $breadcrumbs = array();
         
         //kui esitähe järgi valida band siis koristame otsingu ja muud hackid
         public function createUrl($route,$params=array(),$ampersand='&')

@@ -1,6 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'Minu bänd'=>array('view','id'=>$model->id),
+	'Minu bänd'=>array('band/view','slug'=>$model->slug),
 	'Muuda',
 );
 ?>

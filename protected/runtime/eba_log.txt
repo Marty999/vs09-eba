@@ -820,3 +820,61 @@ Stack trace:
 #3 E:\WEB\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
 #4 E:\WEB\projects\eba\index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/eba/band/details/
+2011/06/14 17:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "muusikaline".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('muusikaline')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('muusikaline')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/muusikalin...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/band/muusikaline
+2011/06/14 17:11:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "muusikaline".' in D:\Web\yii_lib\web\CController.php:477
+Stack trace:
+#0 D:\Web\yii_lib\web\CController.php(262): CController->missingAction('muusikaline')
+#1 D:\Web\yii_lib\web\CWebApplication.php(328): CController->run('muusikaline')
+#2 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('band/muusikalin...')
+#3 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\Web\projects\eba\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/eba/band/muusikaline
+2011/06/14 17:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-2.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-2.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-2.png
+2011/06/14 17:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-1.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-1.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-1.png
+2011/06/14 17:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-2.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-2.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-2.png
+2011/06/14 17:48:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-1.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-1.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-1.png
+2011/06/14 23:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-1.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-1.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-1.png
+2011/06/14 23:03:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-2.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-2.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-2.png
+2011/06/14 23:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/_gfx/bg-3.png".' in D:\Web\yii_lib\web\CWebApplication.php:332
+Stack trace:
+#0 D:\Web\yii_lib\web\CWebApplication.php(121): CWebApplication->runController('css/_gfx/bg-3.p...')
+#1 D:\Web\yii_lib\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\Web\projects\eba\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/eba/css/_gfx/bg-3.png
